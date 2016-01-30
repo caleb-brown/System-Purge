@@ -11,8 +11,10 @@ public class hover : MonoBehaviour
     float distanceFlown;
     Rigidbody2D myBody;
     Transform myTrans;
+    BoxCollider2D hitBox;
     float myWidth, myHeight;
     float lastPos;
+    bool goingUp = false;
    
 
     // Use this for initialization
@@ -20,6 +22,7 @@ public class hover : MonoBehaviour
     {
         myTrans = this.transform;
         myBody = this.GetComponent<Rigidbody2D>();
+        hitBox = this.GetComponent<BoxCollider2D>();
         SpriteRenderer mySprite = this.GetComponent<SpriteRenderer>();
         myWidth = mySprite.bounds.extents.x;
         myHeight = mySprite.bounds.extents.y;
@@ -27,7 +30,8 @@ public class hover : MonoBehaviour
     }
 
 
-    // Update is called once per frame
+
+   
     void FixedUpdate()
     {
         Vector2 lineCastPos;
@@ -35,14 +39,26 @@ public class hover : MonoBehaviour
         if (flyPattern == false)
         {
             lineCastPos = myTrans.position.toVector2() - myTrans.right.toVector2() * myWidth + Vector2.up * myHeight;
+
             lineCastPos.y = lineCastPos.y - (myHeight * 1.2f);
         }
             
 
         else
         {
-            lineCastPos = myTrans.position.toVector2() - myTrans.up.toVector2() * myWidth + Vector2.right * myHeight;
-            lineCastPos.x -= myWidth;
+
+            if (goingUp)
+                lineCastPos = myTrans.position.toVector2() + myTrans.up.toVector2() * myWidth - Vector2.up * myHeight;
+
+            else
+            {
+                lineCastPos = myTrans.position.toVector2() - myTrans.up.toVector2() * myWidth + Vector2.right * myHeight;
+                lineCastPos.x -= myWidth;
+                lineCastPos.y += myHeight;
+            }
+
+            
+            
         }
            
 
@@ -57,22 +73,19 @@ public class hover : MonoBehaviour
         {
             Vector3 currentRot = myTrans.eulerAngles;
             currentRot.y += 180;
-            print(currentRot.x);
             myTrans.eulerAngles = currentRot;
             distanceFlown = 0;
-            print("did it");
         }
 
         //if hit wall on y-axis ground turn around
         else if((isBlockedY && flyPattern == true) || (distanceFlown > maxFlightDistance && maxFlightDistance != 0 && flyPattern == true))
         {
-            Vector3 currentRot = myTrans.eulerAngles;
-            currentRot.x += 180;
-            print(currentRot.x);
-            myTrans.eulerAngles = currentRot;
-            print(myTrans.eulerAngles);
+            //Vector3 currentRot = myTrans.eulerAngles;
+            //currentRot.x += 180;
+            //myTrans.eulerAngles = currentRot;
             distanceFlown = 0;
-            print("did it");
+            speed = -speed;
+            goingUp = !goingUp;
         }
 
 
