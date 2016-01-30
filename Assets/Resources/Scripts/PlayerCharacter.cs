@@ -7,13 +7,13 @@ public class PlayerCharacter : Controller, ISceneObject {
     // TPC-Specific Variables
     //private bool onGround, canJump, wallDetected; // Other bools should be setup for the different input states (charging, jumping, etc.)
     private Rigidbody2D playerRB;
-    private float distanceToWall;
     private RaycastHit wallHit;
     //private Collider playerCollider;
     private Vector2 joystickMovement, jumpMovement;
 
     // TPC Editor Variables
     public float surfaceNormalAngleThreshold, jumpMagnitude, chargeSpeedModifier, wallRayCastDistance;
+    private float distanceToWall;
 
     public void Initialize()
     {
