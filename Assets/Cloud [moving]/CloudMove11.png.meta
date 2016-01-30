@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: a514eb9a8e956a14686e8ef835083a04
+timeCreated: 1454145859
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CloudMove11_0
+    21300002: CloudMove11_1
+    21300004: CloudMove11_2
+    21300006: CloudMove11_3
+    21300008: CloudMove11_4
+    21300010: CloudMove11_5
+    21300012: CloudMove11_6
+    21300014: CloudMove11_7
+    21300016: CloudMove11_8
+    21300018: CloudMove11_9
+    21300020: CloudMove11_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CloudMove11_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 31
+        width: 346
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.39419, y: 14.307053}
+        - {x: 64.39419, y: 11.307053}
+        - {x: 64.39419, y: 2.3070526}
+        - {x: 64.39419, y: 7.3070526}
+        - {x: 62.394188, y: 9.307053}
+        - {x: 64.39419, y: 33.307053}
+        - {x: 36.394188, y: 41.307053}
+        - {x: -66.60581, y: 41.307053}
+        - {x: -82.60581, y: 25.307053}
+        - {x: -82.60581, y: -38.692947}
+        - {x: 28.394188, y: -38.692947}
+        - {x: 86.39419, y: -23.692947}
+        - {x: 86.39419, y: 5.3070526}
+        - {x: 84.39419, y: 17.307053}
+    - name: CloudMove11_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 31
+        width: 345
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71.72821, y: 15.307053}
+        - {x: 64.72821, y: 12.307053}
+        - {x: 63.72821, y: 32.307053}
+        - {x: 6.7282104, y: 41.307053}
+        - {x: -55.27179, y: 41.307053}
+        - {x: -75.27179, y: 29.307053}
+        - {x: -85.27179, y: 4.3070526}
+        - {x: -85.27179, y: -37.692947}
+        - {x: -64.27179, y: -38.692947}
+        - {x: 38.72821, y: -38.692947}
+        - {x: 81.72821, y: -25.692947}
+        - {x: 85.72821, y: -12.692947}
+        - {x: 85.72821, y: 15.307053}
+    - name: CloudMove11_2
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 32
+        width: 347
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.074677, y: 39.30083}
+        - {x: -44.925323, y: 39.30083}
+        - {x: -85.92532, y: 26.30083}
+        - {x: -85.92532, y: -37.69917}
+        - {x: -45.925323, y: -39.69917}
+        - {x: 33.074677, y: -39.69917}
+        - {x: 83.07468, y: -25.69917}
+        - {x: 83.07468, y: 3.3008308}
+        - {x: 64.07468, y: 36.30083}
+      - - {x: 67.07468, y: 1.3008308}
+        - {x: 68.07468, y: -0.69916916}
+        - {x: 85.07468, y: -0.69916916}
+        - {x: 85.07468, y: 14.300831}
+        - {x: 72.07468, y: 14.300831}
+        - {x: 67.07468, y: 10.300831}
+    - name: CloudMove11_3
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 28
+        width: 347
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79.63275, y: 2.3257256}
+        - {x: -79.63275, y: -35.674274}
+        - {x: -53.63275, y: -37.674274}
+        - {x: 86.36725, y: -37.674274}
+        - {x: 86.36725, y: 12.325726}
+        - {x: 69.36725, y: 40.325726}
+        - {x: -47.63275, y: 40.325726}
+        - {x: -67.63275, y: 26.325726}
+    - name: CloudMove11_4
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 28
+        width: 335
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.817444, y: 41.325726}
+        - {x: -68.817444, y: 30.325726}
+        - {x: -79.817444, y: 3.3257256}
+        - {x: -79.817444, y: -37.674274}
+        - {x: 83.182556, y: -37.674274}
+        - {x: 83.182556, y: 17.325726}
+        - {x: 67.182556, y: 41.325726}
+    - name: CloudMove11_5
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 33
+        width: 338
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.54773, y: 23.794605}
+        - {x: 23.54773, y: 33.794605}
+        - {x: -58.45227, y: 33.794605}
+        - {x: -78.45227, y: 6.7946053}
+        - {x: -78.45227, y: -38.205395}
+        - {x: 43.54773, y: -38.205395}
+        - {x: 84.54773, y: -29.205395}
+        - {x: 84.54773, y: -5.2053947}
+        - {x: 83.54773, y: -3.2053947}
+    - name: CloudMove11_6
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 25
+        width: 340
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.425293, y: 22.844398}
+        - {x: 30.425293, y: 20.844398}
+        - {x: 30.425293, y: 8.8443985}
+        - {x: 28.425293, y: 12.8443985}
+        - {x: 26.425293, y: 14.8443985}
+        - {x: 30.425293, y: 18.844398}
+        - {x: 30.425293, y: 28.844398}
+        - {x: 32.425293, y: 36.8444}
+        - {x: 26.425293, y: 38.8444}
+        - {x: -45.574707, y: 38.8444}
+        - {x: -80.57471, y: 19.844398}
+        - {x: -80.57471, y: -29.155602}
+        - {x: -79.57471, y: -37.1556}
+        - {x: 41.425293, y: -37.1556}
+        - {x: 85.42529, y: -27.155602}
+        - {x: 85.42529, y: 8.8443985}
+        - {x: 50.425293, y: 30.844398}
+    - name: CloudMove11_7
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 28
+        width: 333
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76.2345, y: 38.825726}
+        - {x: -79.2345, y: 35.825726}
+        - {x: -79.2345, y: -35.174274}
+        - {x: 55.765503, y: -35.174274}
+        - {x: 82.7655, y: -31.174274}
+        - {x: 82.7655, y: 27.825726}
+        - {x: 40.765503, y: 38.825726}
+    - name: CloudMove11_8
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 30
+        width: 344
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.819458, y: 38.81328}
+        - {x: -80.81946, y: 35.81328}
+        - {x: -80.81946, y: -35.18672}
+        - {x: 46.180542, y: -35.18672}
+        - {x: 86.18054, y: -26.186722}
+        - {x: 86.18054, y: 24.813278}
+        - {x: 47.180542, y: 38.81328}
+      - - {x: -84.81946, y: -25.186722}
+        - {x: -81.81946, y: -24.186722}
+        - {x: -81.81946, y: -4.186722}
+        - {x: -83.81946, y: -2.1867218}
+        - {x: -84.81946, y: -2.1867218}
+    - name: CloudMove11_9
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 27
+        width: 340
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59.973022, y: 39.83195}
+        - {x: -79.97302, y: 25.831951}
+        - {x: -80.97302, y: 19.831951}
+        - {x: -80.97302, y: -37.16805}
+        - {x: 67.02698, y: -37.16805}
+        - {x: 85.02698, y: -24.168049}
+        - {x: 85.02698, y: 21.831951}
+        - {x: 14.026978, y: 39.83195}
+    - name: CloudMove11_10
+      rect:
+        serializedVersion: 2
+        x: 3794
+        y: 28
+        width: 342
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.614136, y: 43.325726}
+        - {x: -79.614136, y: 31.325726}
+        - {x: -81.614136, y: 23.325726}
+        - {x: -81.614136, y: -36.674274}
+        - {x: 27.385864, y: -36.674274}
+        - {x: 85.385864, y: -21.674274}
+        - {x: 85.385864, y: 27.325726}
+        - {x: 54.385864, y: 43.325726}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
