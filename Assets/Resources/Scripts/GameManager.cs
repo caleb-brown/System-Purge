@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     {
         if (gManager == null)
         {
+            DontDestroyOnLoad(gameObject);
             gManager = this;
             iManager = new InputManager(0.1f, 0.2f);
             tagged_objects = GameObject.FindGameObjectsWithTag("Scene_Object");
