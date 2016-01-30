@@ -17,7 +17,8 @@ public class Platform : MonoBehaviour
         //Updates all of the children's SpriteRender sprites
         foreach (SpriteRenderer i in GetComponentsInChildren<SpriteRenderer>())
         {
-            i.sprite = sprite;
+            if (i.tag != "Player")
+                i.sprite = sprite;
         }
 
         /*Vector3 curPos = this.transform.position;

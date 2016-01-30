@@ -26,4 +26,16 @@ public class MovingPlatform : MonoBehaviour
         if (transform.position.x <= initPos.x + -movmentAmount)
             dirRight = true;
 	}
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+            other.transform.parent = transform;
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+            other.transform.parent = null;
+    }
 }
