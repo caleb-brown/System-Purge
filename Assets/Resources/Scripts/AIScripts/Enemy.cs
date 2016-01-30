@@ -3,18 +3,21 @@ using System.Collections;
 using GameUtils;
 using System;
 
-public class Enemy : Controller, ISceneObject{
-
+public class Enemy : Controller{
+    public bool isAir;
     private state currentState;
-	// Use this for initialization
-	void Start ()
+    public LayerMask enemyMask;
+    // Use this for initialization
+    void Start ()
     {
+
+        isAir = false;
         print("start");
         changestate(new idle());
+        
 	}
-	
 	// Update is called once per frame
-	void Update ()
+	void FixedUpdate ()
     {
         currentState.Execute();
 	}
@@ -24,14 +27,5 @@ public class Enemy : Controller, ISceneObject{
             currentState.Exit();
         currentState = newstate;
         currentState.Enter(this);   
-    }
-
-    public void ObjectUpdate()
-    {
-    }
-
-    public void Initialize()
-    {
-
     }
 }

@@ -1,29 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using GameUtils;
 
-public class idle : state {
+public class idle : state
+{
+    private ISceneObject manager;
     private Enemy enemy;
     private float time = 0;
     public void Execute()
     {
-        time += Time.deltaTime;
-        if (time >= 1)
-            enemy.changestate(new wander());
+        Idle();
     }
-
     public void Enter(Enemy enemy)
     {
         Debug.Log("idle");
-        time = 0;
         this.enemy = enemy;
     }
-
-    public void Exit()
+    public void Exit(){}
+    public void onTriggerEnter(Collider2D other){}
+    public void Idle()
     {
-    }
-
-    public void onTriggerEnter(Collider2D other)
-    {
+        time += Time.deltaTime;
+        if (time >= 3)
+            enemy.changestate(new wander());
     }
 }

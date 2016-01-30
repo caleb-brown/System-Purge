@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using GameUtils;
 
-public class seeking : state {
+public class seeking : state
+{
     private Enemy enemy;
     public void Enter(Enemy enemy)
     {

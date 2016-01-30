@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using GameUtils;
 
-public class wander : state {
+public class wander : state
+{
     private Enemy enemy;
     public LayerMask enemyMask;
-    public float speed = 5;
+    public float speed;
     Rigidbody2D myBody;
     Transform myTrans;
     float myWidth, myHeight;
@@ -14,8 +16,29 @@ public class wander : state {
     public void Execute()
     {   
         time += Time.deltaTime;
-        if (time >= 5)
+        if (time >= 10)
             enemy.changestate(new idle());
+        CheckHead();
+        Move();
+    }
+
+    public void Enter(Enemy enemy)
+    {
+        Debug.Log("Wander");
+        time = 0;
+        this.enemy = enemy;
+        this.enemyMask = enemy.enemyMask;
+        myTrans = enemy.transform;
+        myBody = enemy.GetComponent<Rigidbody2D>();
+        SpriteRenderer mySprite = enemy.GetComponent<SpriteRenderer>();
+        myWidth = mySprite.bounds.extents.x;
+        myHeight = mySprite.bounds.extents.y;
+        speed = enemy.movementSpeed;
+    }
+    public void Exit(){}
+    public void onTriggerEnter(Collider2D other){}
+    public void CheckHead()
+    {
         //check to see if there's ground in front of us before moving forward
         Vector2 lineCastPos = myTrans.position.toVector2() - myTrans.right.toVector2() * myWidth + Vector2.up * myHeight;
         lineCastPos.y = lineCastPos.y - (myHeight * 1.2f);
@@ -30,29 +53,13 @@ public class wander : state {
             currentRot.y += 180;
             myTrans.eulerAngles = currentRot;
         }
+    }
+    public void Move()
+    {
         //always move forward
         Vector2 myVel = myBody.velocity;
         myVel.x = -myTrans.right.x * speed;
         myBody.velocity = myVel;
     }
 
-    public void Enter(Enemy enemy)
-    {
-        Debug.Log("Wander");
-        time = 0;
-        this.enemy = enemy;
-        myTrans = enemy.transform;
-        myBody = enemy.GetComponent<Rigidbody2D>();
-        SpriteRenderer mySprite = enemy.GetComponent<SpriteRenderer>();
-        myWidth = mySprite.bounds.extents.x;
-        myHeight = mySprite.bounds.extents.y;
-    }
-
-    public void Exit()
-    {
-    }
-
-    public void onTriggerEnter(Collider2D other)
-    {
-    }
 }
