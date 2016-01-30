@@ -6,10 +6,10 @@ using System.Collections.Generic;
 public class Platform : MonoBehaviour
 {
     public Sprite sprite;
-    public int addNum;
-    public GameObject prefab;
-    public bool isParent = true;
-    int oldNum = 0;
+    //public int addNum;
+    //public GameObject prefab;
+    //public bool isParent = true;
+    //int oldNum = 0;
 
 	// Update is called once per frame
 	void Update ()
