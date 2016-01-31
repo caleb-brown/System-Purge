@@ -3,8 +3,8 @@ using System.Collections;
 
 public class TextImporter : MonoBehaviour {
 
-    public TextAsset textfile;
-    public string[] textLines;
+    public TextAsset textfile;  //A block of text that will be "put" into the box.
+    public string[] textLines;  //An array of lines that will be put on screen line by line.
 
 
 	// Use this for initialization
