@@ -10,10 +10,14 @@ public class Enemy : Controller{
     public LayerMask enemyMask;
     public bool rightdirection;
     public float[] time = new float[10];
+	public bool idle;
+	public bool wander;
 
     // Use this for initialization
     void Start ()
     {
+		time [0] = 2.0f;
+		time [1] = 4.0f;
         print("start");
 		mAnimator = GetComponent<Animator> ();
         changestate(new idle());
