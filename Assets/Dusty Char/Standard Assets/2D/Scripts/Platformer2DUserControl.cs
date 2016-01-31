@@ -1,24 +1,24 @@
 using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using GameUtils;
 
 namespace UnityStandardAssets._2D
 {
     [RequireComponent(typeof (PlatformerCharacter2D))]
-    public class Platformer2DUserControl : CharacterMovement
+    public class Platformer2DUserControl : CharacterMovement, ISceneObject
     {
-        private PlatformerCharacter2D m_Character;
         private bool m_Jump;
 
         public bool canMove;
 
-        private void Awake()
+        public void Initialize()
         {
-            m_Character = GetComponent<PlatformerCharacter2D>();
+            // Put any needed initialization script here.
         }
 
 
-        private void Update()
+        public void ObjectUpdate()
         {
             // calling stuff in from the Character Movement class
             Movement();
@@ -33,14 +33,13 @@ namespace UnityStandardAssets._2D
 
         }
 
-
         private void FixedUpdate()
         {
             // Read the inputs.
             bool crouch = Input.GetKey(KeyCode.LeftControl);
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             // Pass all parameters to the character control script.
-            m_Character.Move(h, crouch, m_Jump);
+            GameManager.m_Character.Move(h, crouch, m_Jump);
             m_Jump = false;
         }
     }

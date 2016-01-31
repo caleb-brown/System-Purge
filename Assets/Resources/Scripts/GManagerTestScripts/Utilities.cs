@@ -46,7 +46,9 @@ namespace GameUtils
     public enum GameState
     {
         TITLE, // index 0
-        MAINMENU // index 1
+        MAINMENU, // index 1
+        TLEVELONE,
+        TLEVELTWO
         // ... this goes on to define levels, most useful if kept in the same loading order that is to be used during build.
     }
 }

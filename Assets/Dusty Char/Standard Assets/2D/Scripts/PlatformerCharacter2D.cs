@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using GameUtils;
 
 namespace UnityStandardAssets._2D
 {
