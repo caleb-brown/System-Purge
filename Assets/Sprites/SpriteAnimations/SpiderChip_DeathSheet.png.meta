@@ -1,0 +1,641 @@
+fileFormatVersion: 2
+guid: 5bee034dd131c9e429ebabc6dbc0484f
+timeCreated: 1454224124
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpiderChip_DeathSheet_0
+    21300002: SpiderChip_DeathSheet_1
+    21300004: SpiderChip_DeathSheet_2
+    21300006: SpiderChip_DeathSheet_3
+    21300008: SpiderChip_DeathSheet_4
+    21300010: SpiderChip_DeathSheet_5
+    21300012: SpiderChip_DeathSheet_6
+    21300014: SpiderChip_DeathSheet_7
+    21300016: SpiderChip_DeathSheet_8
+    21300018: SpiderChip_DeathSheet_9
+    21300020: SpiderChip_DeathSheet_10
+    21300022: SpiderChip_DeathSheet_11
+    21300024: SpiderChip_DeathSheet_12
+    21300026: SpiderChip_DeathSheet_13
+    21300028: SpiderChip_DeathSheet_14
+    21300030: SpiderChip_DeathSheet_15
+    21300032: SpiderChip_DeathSheet_16
+    21300034: SpiderChip_DeathSheet_17
+    21300036: SpiderChip_DeathSheet_18
+    21300038: SpiderChip_DeathSheet_19
+    21300040: SpiderChip_DeathSheet_20
+    21300042: SpiderChip_DeathSheet_21
+    21300044: SpiderChip_DeathSheet_22
+    21300046: SpiderChip_DeathSheet_23
+    21300048: SpiderChip_DeathSheet_24
+    21300050: SpiderChip_DeathSheet_25
+    21300052: SpiderChip_DeathSheet_26
+    21300054: SpiderChip_DeathSheet_27
+    21300056: SpiderChip_DeathSheet_28
+    21300058: SpiderChip_DeathSheet_29
+    21300060: SpiderChip_DeathSheet_30
+    21300062: SpiderChip_DeathSheet_31
+    21300064: SpiderChip_DeathSheet_32
+    21300066: SpiderChip_DeathSheet_33
+    21300068: SpiderChip_DeathSheet_34
+    21300070: SpiderChip_DeathSheet_35
+    21300072: SpiderChip_DeathSheet_36
+    21300074: SpiderChip_DeathSheet_37
+    21300076: SpiderChip_DeathSheet_38
+    21300078: SpiderChip_DeathSheet_39
+    21300080: SpiderChip_DeathSheet_40
+    21300082: SpiderChip_DeathSheet_41
+    21300084: SpiderChip_DeathSheet_42
+    21300086: SpiderChip_DeathSheet_43
+    21300088: SpiderChip_DeathSheet_44
+    21300090: SpiderChip_DeathSheet_45
+    21300092: SpiderChip_DeathSheet_46
+    21300094: SpiderChip_DeathSheet_47
+    21300096: SpiderChip_DeathSheet_48
+    21300098: SpiderChip_DeathSheet_49
+    21300100: SpiderChip_DeathSheet_50
+    21300102: SpiderChip_DeathSheet_51
+    21300104: SpiderChip_DeathSheet_52
+    21300106: SpiderChip_DeathSheet_53
+    21300108: SpiderChip_DeathSheet_54
+    21300110: SpiderChip_DeathSheet_55
+    21300112: SpiderChip_DeathSheet_56
+    21300114: SpiderChip_DeathSheet_57
+    21300116: SpiderChip_DeathSheet_58
+    21300118: SpiderChip_DeathSheet_59
+    21300120: SpiderChip_DeathSheet_60
+    21300122: SpiderChip_DeathSheet_61
+    21300124: SpiderChip_DeathSheet_62
+    21300126: SpiderChip_DeathSheet_63
+    21300128: SpiderChip_DeathSheet_64
+    21300130: SpiderChip_DeathSheet_65
+    21300132: SpiderChip_DeathSheet_66
+    21300134: SpiderChip_DeathSheet_67
+    21300136: SpiderChip_DeathSheet_68
+    21300138: SpiderChip_DeathSheet_69
+    21300140: SpiderChip_DeathSheet_70
+    21300142: SpiderChip_DeathSheet_71
+    21300144: SpiderChip_DeathSheet_72
+    21300146: SpiderChip_DeathSheet_73
+    21300148: SpiderChip_DeathSheet_74
+    21300150: SpiderChip_DeathSheet_75
+    21300152: SpiderChip_DeathSheet_76
+    21300154: SpiderChip_DeathSheet_77
+    21300156: SpiderChip_DeathSheet_78
+    21300158: SpiderChip_DeathSheet_79
+    21300160: SpiderChip_DeathSheet_80
+    21300162: SpiderChip_DeathSheet_81
+    21300164: SpiderChip_DeathSheet_82
+    21300166: SpiderChip_DeathSheet_83
+    21300168: SpiderChip_DeathSheet_84
+    21300170: SpiderChip_DeathSheet_85
+    21300172: SpiderChip_DeathSheet_86
+    21300174: SpiderChip_DeathSheet_87
+    21300176: SpiderChip_DeathSheet_88
+    21300178: SpiderChip_DeathSheet_89
+    21300180: SpiderChip_DeathSheet_90
+    21300182: SpiderChip_DeathSheet_91
+    21300184: SpiderChip_DeathSheet_92
+    21300186: SpiderChip_DeathSheet_93
+    21300188: SpiderChip_DeathSheet_94
+    21300190: SpiderChip_DeathSheet_95
+    21300192: SpiderChip_DeathSheet_96
+    21300194: SpiderChip_DeathSheet_97
+    21300196: SpiderChip_DeathSheet_98
+    21300198: SpiderChip_DeathSheet_99
+    21300200: SpiderChip_DeathSheet_100
+    21300202: SpiderChip_DeathSheet_101
+    21300204: SpiderChip_DeathSheet_102
+    21300206: SpiderChip_DeathSheet_103
+    21300208: SpiderChip_DeathSheet_104
+    21300210: SpiderChip_DeathSheet_105
+    21300212: SpiderChip_DeathSheet_106
+    21300214: SpiderChip_DeathSheet_107
+    21300216: SpiderChip_DeathSheet_108
+    21300218: SpiderChip_DeathSheet_109
+    21300220: SpiderChip_DeathSheet_110
+    21300222: SpiderChip_DeathSheet_111
+    21300224: SpiderChip_DeathSheet_112
+    21300226: SpiderChip_DeathSheet_113
+    21300228: SpiderChip_DeathSheet_114
+    21300230: SpiderChip_DeathSheet_115
+    21300232: SpiderChip_DeathSheet_116
+    21300234: SpiderChip_DeathSheet_117
+    21300236: SpiderChip_DeathSheet_118
+    21300238: SpiderChip_DeathSheet_119
+    21300240: SpiderChip_DeathSheet_120
+    21300242: SpiderChip_DeathSheet_121
+    21300244: SpiderChip_DeathSheet_122
+    21300246: SpiderChip_DeathSheet_123
+    21300248: SpiderChip_DeathSheet_124
+    21300250: SpiderChip_DeathSheet_125
+    21300252: SpiderChip_DeathSheet_126
+    21300254: SpiderChip_DeathSheet_127
+    21300256: SpiderChip_DeathSheet_128
+    21300258: SpiderChip_DeathSheet_129
+    21300260: SpiderChip_DeathSheet_130
+    21300262: SpiderChip_DeathSheet_131
+    21300264: SpiderChip_DeathSheet_132
+    21300266: SpiderChip_DeathSheet_133
+    21300268: SpiderChip_DeathSheet_134
+    21300270: SpiderChip_DeathSheet_135
+    21300272: SpiderChip_DeathSheet_136
+    21300274: SpiderChip_DeathSheet_137
+    21300276: SpiderChip_DeathSheet_138
+    21300278: SpiderChip_DeathSheet_139
+    21300280: SpiderChip_DeathSheet_140
+    21300282: SpiderChip_DeathSheet_141
+    21300284: SpiderChip_DeathSheet_142
+    21300286: SpiderChip_DeathSheet_143
+    21300288: SpiderChip_DeathSheet_144
+    21300290: SpiderChip_DeathSheet_145
+    21300292: SpiderChip_DeathSheet_146
+    21300294: SpiderChip_DeathSheet_147
+    21300296: SpiderChip_DeathSheet_148
+    21300298: SpiderChip_DeathSheet_149
+    21300300: SpiderChip_DeathSheet_150
+    21300302: SpiderChip_DeathSheet_151
+    21300304: SpiderChip_DeathSheet_152
+    21300306: SpiderChip_DeathSheet_153
+    21300308: SpiderChip_DeathSheet_154
+    21300310: SpiderChip_DeathSheet_155
+    21300312: SpiderChip_DeathSheet_156
+    21300314: SpiderChip_DeathSheet_157
+    21300316: SpiderChip_DeathSheet_158
+    21300318: SpiderChip_DeathSheet_159
+    21300320: SpiderChip_DeathSheet_160
+    21300322: SpiderChip_DeathSheet_161
+    21300324: SpiderChip_DeathSheet_162
+    21300326: SpiderChip_DeathSheet_163
+    21300328: SpiderChip_DeathSheet_164
+    21300330: SpiderChip_DeathSheet_165
+    21300332: SpiderChip_DeathSheet_166
+    21300334: SpiderChip_DeathSheet_167
+    21300336: SpiderChip_DeathSheet_168
+    21300338: SpiderChip_DeathSheet_169
+    21300340: SpiderChip_DeathSheet_170
+    21300342: SpiderChip_DeathSheet_171
+    21300344: SpiderChip_DeathSheet_172
+    21300346: SpiderChip_DeathSheet_173
+    21300348: SpiderChip_DeathSheet_174
+    21300350: SpiderChip_DeathSheet_175
+    21300352: SpiderChip_DeathSheet_176
+    21300354: SpiderChip_DeathSheet_177
+    21300356: SpiderChip_DeathSheet_178
+    21300358: SpiderChip_DeathSheet_179
+    21300360: SpiderChip_DeathSheet_180
+    21300362: SpiderChip_DeathSheet_181
+    21300364: SpiderChip_DeathSheet_182
+    21300366: SpiderChip_DeathSheet_183
+    21300368: SpiderChip_DeathSheet_184
+    21300370: SpiderChip_DeathSheet_185
+    21300372: SpiderChip_DeathSheet_186
+    21300374: SpiderChip_DeathSheet_187
+    21300376: SpiderChip_DeathSheet_188
+    21300378: SpiderChip_DeathSheet_189
+    21300380: SpiderChip_DeathSheet_190
+    21300382: SpiderChip_DeathSheet_191
+    21300384: SpiderChip_DeathSheet_192
+    21300386: SpiderChip_DeathSheet_193
+    21300388: SpiderChip_DeathSheet_194
+    21300390: SpiderChip_DeathSheet_195
+    21300392: SpiderChip_DeathSheet_196
+    21300394: SpiderChip_DeathSheet_197
+    21300396: SpiderChip_DeathSheet_198
+    21300398: SpiderChip_DeathSheet_199
+    21300400: SpiderChip_DeathSheet_200
+    21300402: SpiderChip_DeathSheet_201
+    21300404: SpiderChip_DeathSheet_202
+    21300406: SpiderChip_DeathSheet_203
+    21300408: SpiderChip_DeathSheet_204
+    21300410: SpiderChip_DeathSheet_205
+    21300412: SpiderChip_DeathSheet_206
+    21300414: SpiderChip_DeathSheet_207
+    21300416: SpiderChip_DeathSheet_208
+    21300418: SpiderChip_DeathSheet_209
+    21300420: SpiderChip_DeathSheet_210
+    21300422: SpiderChip_DeathSheet_211
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SpiderChip_DeathSheet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 824
+        width: 230
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: -77}
+        - {x: 115, y: -22}
+        - {x: 115, y: 45}
+        - {x: 41, y: 88}
+        - {x: -13, y: 88}
+        - {x: -115, y: 79}
+        - {x: -115, y: -87}
+        - {x: -111, y: -88}
+        - {x: -1, y: -88}
+        - {x: 3, y: -51}
+        - {x: 12, y: -78}
+        - {x: 18, y: -87}
+    - name: SpiderChip_DeathSheet_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 816
+        width: 245
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -92}
+        - {x: 64.5, y: -78}
+        - {x: 121.5, y: -21}
+        - {x: 122.5, y: -7}
+        - {x: 122.5, y: 36}
+        - {x: 117.5, y: 79}
+        - {x: 75.5, y: 92}
+        - {x: -87.5, y: 92}
+        - {x: -122.5, y: 90}
+        - {x: -122.5, y: -92}
+        - {x: 1.5, y: -92}
+        - {x: 11.5, y: -90}
+        - {x: -8.5, y: -90}
+        - {x: 20.5, y: -92}
+    - name: SpiderChip_DeathSheet_2
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 816
+        width: 262
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -63}
+        - {x: 18, y: -64}
+        - {x: 13, y: -94}
+        - {x: 31, y: -103}
+        - {x: 88, y: -88}
+        - {x: 131, y: -28}
+        - {x: 131, y: 39}
+        - {x: 124, y: 70}
+        - {x: 111, y: 66}
+        - {x: 131, y: 95}
+        - {x: 91, y: 104}
+        - {x: -124, y: 104}
+        - {x: -131, y: 97}
+        - {x: -131, y: -28}
+        - {x: -121, y: -90}
+        - {x: -79, y: -79}
+        - {x: -77, y: -67}
+        - {x: -78, y: -43}
+        - {x: -38, y: -90}
+        - {x: -23, y: -104}
+        - {x: -6, y: -104}
+        - {x: -2, y: -101}
+        - {x: -1, y: -68}
+        - {x: -5, y: -63}
+    - name: SpiderChip_DeathSheet_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 574
+        width: 250
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125, y: 55}
+        - {x: 92, y: 97}
+        - {x: -125, y: 97}
+        - {x: -125, y: -85}
+        - {x: -74, y: -78}
+        - {x: -40, y: -44}
+        - {x: -40, y: -38}
+        - {x: -40, y: -78}
+        - {x: -23, y: -97}
+        - {x: 47, y: -97}
+        - {x: 71, y: -83}
+        - {x: 105, y: -48}
+        - {x: 125, y: -2}
+    - name: SpiderChip_DeathSheet_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 560
+        width: 297
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73.5, y: -102.5}
+        - {x: 148.5, y: -38.5}
+        - {x: 148.5, y: 53.5}
+        - {x: 83.5, y: 110.5}
+        - {x: -30.5, y: 110.5}
+        - {x: -148.5, y: 91.5}
+        - {x: -148.5, y: -63.5}
+        - {x: -128.5, y: -89.5}
+        - {x: -96.5, y: -83.5}
+        - {x: -91.5, y: -69.5}
+        - {x: -40.5, y: -110.5}
+        - {x: -11.5, y: -110.5}
+        - {x: -9.5, y: -69.5}
+        - {x: 7.5, y: -103.5}
+        - {x: 23.5, y: -110.5}
+    - name: SpiderChip_DeathSheet_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 565
+        width: 270
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: -41}
+        - {x: 135, y: -36}
+        - {x: 135, y: 74}
+        - {x: 82, y: 108}
+        - {x: -35, y: 108}
+        - {x: -41, y: 102}
+        - {x: -42, y: 99}
+        - {x: -42, y: 95}
+        - {x: -44, y: 93}
+        - {x: -44, y: 88}
+        - {x: -43, y: 104}
+        - {x: -42, y: 108}
+        - {x: -53, y: 108}
+        - {x: -135, y: 86}
+        - {x: -135, y: -108}
+        - {x: 64, y: -108}
+        - {x: 77, y: -97}
+        - {x: 102, y: -56}
+        - {x: 108, y: -39}
+    - name: SpiderChip_DeathSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 335
+        width: 278
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -51.5}
+        - {x: 10, y: -50.5}
+        - {x: 10, y: -40.5}
+        - {x: 10, y: -46.5}
+        - {x: 12, y: -48.5}
+        - {x: 12, y: -69.5}
+        - {x: 7, y: -95.5}
+        - {x: 9, y: -107.5}
+        - {x: 25, y: -117.5}
+        - {x: 82, y: -112.5}
+        - {x: 139, y: -35.5}
+        - {x: 139, y: 41.5}
+        - {x: 127, y: 65.5}
+        - {x: 64, y: 119.5}
+        - {x: -23, y: 119.5}
+        - {x: -101, y: 105.5}
+        - {x: -139, y: 87.5}
+        - {x: -139, y: -70.5}
+        - {x: -125, y: -94.5}
+        - {x: -101, y: -90.5}
+        - {x: -90, y: -86.5}
+        - {x: -94, y: -49.5}
+        - {x: -95, y: -31.5}
+        - {x: -93, y: -53.5}
+        - {x: -90, y: -62.5}
+        - {x: -30, y: -119.5}
+        - {x: -16, y: -119.5}
+        - {x: -9, y: -113.5}
+        - {x: 1, y: -76.5}
+        - {x: 12, y: -55.5}
+    - name: SpiderChip_DeathSheet_7
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 283
+        width: 220
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 131}
+        - {x: -82, y: 108}
+        - {x: -110, y: 70}
+        - {x: -110, y: 26}
+        - {x: -89, y: -1}
+        - {x: -92, y: -62}
+        - {x: -81, y: -72}
+        - {x: -43, y: -60}
+        - {x: -62, y: -84}
+        - {x: -57, y: -98}
+        - {x: -41, y: -131}
+        - {x: 101, y: -131}
+        - {x: 110, y: -117}
+        - {x: 110, y: 10}
+        - {x: 38, y: 131}
+    - name: SpiderChip_DeathSheet_8
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 271
+        width: 235
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117.5, y: 102.5}
+        - {x: 23.5, y: 141.5}
+        - {x: 15.5, y: 143.5}
+        - {x: -44.5, y: 143.5}
+        - {x: -64.5, y: 111.5}
+        - {x: -106.5, y: 76.5}
+        - {x: -101.5, y: 57.5}
+        - {x: -75.5, y: 25.5}
+        - {x: -93.5, y: 37.5}
+        - {x: -117.5, y: 35.5}
+        - {x: -117.5, y: -92.5}
+        - {x: -80.5, y: -144.5}
+        - {x: -36.5, y: -144.5}
+        - {x: 20.5, y: -116.5}
+        - {x: 25.5, y: -105.5}
+        - {x: 47.5, y: -106.5}
+        - {x: 117.5, y: -43.5}
+      - - {x: 20.5, y: -140.5}
+        - {x: 19.5, y: -143.5}
+        - {x: 19.5, y: -144.5}
+        - {x: 37.5, y: -144.5}
+        - {x: 37.5, y: -141.5}
+        - {x: 33.5, y: -140.5}
+    - name: SpiderChip_DeathSheet_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 311
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96.5, y: -119.5}
+        - {x: 99.5, y: -111.5}
+        - {x: 155.5, y: -69.5}
+        - {x: 155.5, y: -61.5}
+        - {x: 135.5, y: -53.5}
+        - {x: 131.5, y: 39.5}
+        - {x: 109.5, y: 101.5}
+        - {x: 75.5, y: 94.5}
+        - {x: 71.5, y: 81.5}
+        - {x: 80.5, y: 57.5}
+        - {x: 76.5, y: 52.5}
+        - {x: 76.5, y: 46.5}
+        - {x: 75.5, y: 25.5}
+        - {x: 76.5, y: 63.5}
+        - {x: 67.5, y: 69.5}
+        - {x: 22.5, y: 123.5}
+        - {x: -12.5, y: 123.5}
+        - {x: -21.5, y: 80.5}
+        - {x: -33.5, y: 123.5}
+        - {x: -62.5, y: 123.5}
+        - {x: -140.5, y: 75.5}
+        - {x: -155.5, y: 44.5}
+        - {x: -155.5, y: -83.5}
+        - {x: -100.5, y: -123.5}
+        - {x: 54.5, y: -123.5}
+        - {x: 64.5, y: -121.5}
+        - {x: 68.5, y: -119.5}
+        - {x: 72.5, y: -109.5}
+        - {x: 91.5, y: -118.5}
+    - name: SpiderChip_DeathSheet_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 36
+        width: 305
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79.5, y: 73}
+        - {x: 88.5, y: 38}
+        - {x: 89.5, y: 15}
+        - {x: 89.5, y: 19}
+        - {x: 87.5, y: 21}
+        - {x: 84.5, y: 21}
+        - {x: 61.5, y: 54}
+        - {x: 50.5, y: 50}
+        - {x: 39.5, y: 99}
+        - {x: 36.5, y: 112}
+        - {x: -97.5, y: 112}
+        - {x: -152.5, y: 80}
+        - {x: -152.5, y: -53}
+        - {x: -56.5, y: -112}
+        - {x: 34.5, y: -112}
+        - {x: 150.5, y: -103}
+        - {x: 152.5, y: -74}
+        - {x: 152.5, y: 52}
+        - {x: 106.5, y: 102}
+    - name: SpiderChip_DeathSheet_11
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 22
+        width: 329
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 164.5, y: -92.5}
+        - {x: 164.5, y: -24.5}
+        - {x: 151.5, y: 17.5}
+        - {x: 164.5, y: 37.5}
+        - {x: 164.5, y: 63.5}
+        - {x: 118.5, y: 111.5}
+        - {x: 82.5, y: 89.5}
+        - {x: 73.5, y: 56.5}
+        - {x: 62.5, y: 114.5}
+        - {x: 38.5, y: 125.5}
+        - {x: -4.5, y: 125.5}
+        - {x: -4.5, y: 121.5}
+        - {x: -19.5, y: 72.5}
+        - {x: -23.5, y: 112.5}
+        - {x: -46.5, y: 120.5}
+        - {x: -91.5, y: 107.5}
+        - {x: -153.5, y: 56.5}
+        - {x: -164.5, y: 19.5}
+        - {x: -164.5, y: -56.5}
+        - {x: -76.5, y: -125.5}
+        - {x: 157.5, y: -125.5}
+      - - {x: -75.5, y: 125.5}
+        - {x: -75.5, y: 124.5}
+        - {x: -72.5, y: 121.5}
+        - {x: -69.5, y: 121.5}
+        - {x: -66.5, y: 124.5}
+        - {x: -66.5, y: 125.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

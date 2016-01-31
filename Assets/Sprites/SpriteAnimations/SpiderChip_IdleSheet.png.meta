@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 802994fb9a32d444bb642967c87ff98c
+timeCreated: 1454180750
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpiderChip_IdleSheet_0
+    21300002: SpiderChip_IdleSheet_1
+    21300004: SpiderChip_IdleSheet_2
+    21300006: SpiderChip_IdleSheet_3
+    21300008: SpiderChip_IdleSheet_4
+    21300010: SpiderChip_IdleSheet_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SpiderChip_IdleSheet_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 752
+        width: 380
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -41}
+        - {x: 23, y: -20}
+        - {x: 28, y: -65}
+        - {x: 107, y: -95}
+        - {x: 122, y: -73}
+        - {x: 174, y: -59}
+        - {x: 174, y: -31}
+        - {x: 173, y: -30}
+        - {x: 135, y: 48}
+        - {x: 54, y: 95}
+        - {x: -25, y: 95}
+        - {x: -118, y: 84}
+        - {x: -166, y: 1}
+        - {x: -166, y: -27}
+        - {x: -137, y: -23}
+        - {x: 6, y: -108}
+        - {x: 25, y: -108}
+        - {x: 36, y: -80}
+        - {x: 17, y: -42}
+        - {x: 11, y: -41}
+    - name: SpiderChip_IdleSheet_1
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 728
+        width: 380
+        height: 240
+      alignment: 9
+      pivot: {x: 0.50606126, y: 0.591168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.696716, y: -27.88031}
+        - {x: 29.696716, y: -101.88031}
+        - {x: 90.69672, y: -116.88031}
+        - {x: 105.69672, y: -115.88031}
+        - {x: 106.69672, y: -96.88031}
+        - {x: 65.69672, y: -60.88031}
+        - {x: 93.69672, y: -32.88031}
+        - {x: 93.69672, y: -28.88031}
+        - {x: 82.69672, y: -8.88031}
+        - {x: 92.69672, y: -25.88031}
+        - {x: 94.69672, y: -27.88031}
+        - {x: 91.69672, y: -44.88031}
+        - {x: 103.69672, y: -63.88031}
+        - {x: 144.69672, y: -87.88031}
+        - {x: 159.69672, y: -93.88031}
+        - {x: 166.69672, y: -88.88031}
+        - {x: 166.69672, y: -0.88031006}
+        - {x: 91.69672, y: 97.11969}
+        - {x: -87.30328, y: 97.11969}
+        - {x: -121.30328, y: 85.11969}
+        - {x: -174.30328, y: -32.88031}
+        - {x: -174.30328, y: -63.88031}
+        - {x: -80.30328, y: -39.88031}
+        - {x: -73.30328, y: -29.88031}
+        - {x: -70.30328, y: -18.88031}
+        - {x: -49.303284, y: -30.88031}
+        - {x: -27.303284, y: -104.88031}
+        - {x: -0.3032837, y: -141.88031}
+        - {x: 24.696716, y: -141.88031}
+        - {x: 27.696716, y: -140.88031}
+        - {x: 20.696716, y: -79.88031}
+        - {x: 9.696716, y: -72.88031}
+        - {x: 4.6967163, y: -74.88031}
+    - name: SpiderChip_IdleSheet_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 406
+        width: 417
+        height: 281
+      alignment: 9
+      pivot: {x: 0.477907, y: 0.6680265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.7127838, y: -70.715454}
+        - {x: 5.712784, y: -55.715454}
+        - {x: 32.712784, y: -99.715454}
+        - {x: 81.71278, y: -154.71545}
+        - {x: 94.71278, y: -159.71545}
+        - {x: 106.71278, y: -152.71545}
+        - {x: 153.71278, y: -135.71545}
+        - {x: 159.71278, y: -131.71545}
+        - {x: 159.71278, y: -106.715454}
+        - {x: 153.71278, y: -74.715454}
+        - {x: 132.71278, y: 38.284546}
+        - {x: 44.712784, y: 90.284546}
+        - {x: 3.7127838, y: 90.284546}
+        - {x: -106.28722, y: 79.284546}
+        - {x: -152.28722, y: -19.715454}
+        - {x: -160.28722, y: -85.715454}
+        - {x: -160.28722, y: -107.715454}
+        - {x: -137.28722, y: -100.715454}
+        - {x: -127.28722, y: -90.715454}
+        - {x: -41.287216, y: -81.715454}
+        - {x: -38.287216, y: -73.715454}
+        - {x: -38.287216, y: -66.715454}
+        - {x: -44.287216, y: -48.715454}
+        - {x: -24.287216, y: -95.715454}
+        - {x: -0.2872162, y: -176.71545}
+        - {x: 9.712784, y: -181.71545}
+        - {x: 26.712784, y: -181.71545}
+        - {x: 28.712784, y: -177.71545}
+        - {x: 20.712784, y: -89.715454}
+        - {x: 13.712784, y: -70.715454}
+    - name: SpiderChip_IdleSheet_3
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 414
+        width: 365
+        height: 272
+      alignment: 9
+      pivot: {x: 0.50631005, y: 0.5719748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 135.19684, y: 47.42285}
+        - {x: 49.19684, y: 97.42285}
+        - {x: -10.803162, y: 97.42285}
+        - {x: -117.80316, y: 83.42285}
+        - {x: -124.80316, y: 3.4228516}
+        - {x: -158.80316, y: -15.577148}
+        - {x: -158.80316, y: -74.57715}
+        - {x: -57.80316, y: -79.57715}
+        - {x: -59.80316, y: -52.57715}
+        - {x: -5.8031616, y: -140.57715}
+        - {x: 40.19684, y: -140.57715}
+        - {x: 105.19684, y: -111.57715}
+        - {x: 142.19684, y: -102.57715}
+        - {x: 142.19684, y: 14.422852}
+    - name: SpiderChip_IdleSheet_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 84
+        width: 352
+        height: 251
+      alignment: 9
+      pivot: {x: 0.46074113, y: 0.58258444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97.81912, y: -36.2287}
+        - {x: 112.81912, y: -95.2287}
+        - {x: 127.81912, y: -98.2287}
+        - {x: 135.81912, y: -97.2287}
+        - {x: 135.81912, y: 49.7713}
+        - {x: 41.819122, y: 89.7713}
+        - {x: 13.819122, y: 89.7713}
+        - {x: -104.18088, y: 76.7713}
+        - {x: -147.18088, y: 41.7713}
+        - {x: -147.18088, y: -73.2287}
+        - {x: -88.18088, y: -134.2287}
+        - {x: 55.819122, y: -134.2287}
+        - {x: 88.81912, y: -98.2287}
+        - {x: 85.81912, y: -50.2287}
+        - {x: 66.81912, y: -21.228699}
+        - {x: 62.819122, y: -14.228699}
+    - name: SpiderChip_IdleSheet_5
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 74
+        width: 381
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.53076786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.49994, y: 89.93883}
+        - {x: 12.499939, y: 89.93883}
+        - {x: -105.50006, y: 75.93883}
+        - {x: -106.50006, y: 72.93883}
+        - {x: -147.50006, y: -27.061172}
+        - {x: -149.50006, y: -44.061172}
+        - {x: -149.50006, y: -65.06117}
+        - {x: -109.50006, y: -52.061172}
+        - {x: -97.50006, y: -34.061172}
+        - {x: -89.50006, y: -20.061172}
+        - {x: -105.50006, y: -91.06117}
+        - {x: -63.50006, y: -137.06117}
+        - {x: 137.49994, y: -137.06117}
+        - {x: 137.49994, y: 25.938828}
+        - {x: 134.49994, y: 45.938828}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

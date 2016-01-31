@@ -62,7 +62,7 @@ public class CharacterMovement : MonoBehaviour {
         //    transform.eulerAngles = new Vector2(0, 180);
         //}
 
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             powerTeleport();
         }
@@ -76,7 +76,7 @@ public class CharacterMovement : MonoBehaviour {
                 canPass = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             if(SceneManager.GetActiveScene().name == "GMLevel1")
             {
@@ -89,7 +89,7 @@ public class CharacterMovement : MonoBehaviour {
         }
             
 
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             if (changeBox == true)
                 changeBox = false;
