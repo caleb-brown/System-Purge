@@ -14,7 +14,7 @@ public class PlayerCharacter : Controller, ISceneObject {
     // TPC Editor Variables
     public float surfaceNormalAngleThreshold, jumpMagnitude, chargeSpeedModifier, wallRayCastDistance;
     private float distanceToWall;
-    public bool canMove;
+    public bool canMove = true;
     public void Initialize()
     {
         // Put initialization code here.

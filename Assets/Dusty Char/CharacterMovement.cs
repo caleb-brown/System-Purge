@@ -63,14 +63,14 @@ public class CharacterMovement : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.T))
         {
-            print("Got teleport key.");
+            //print("Got teleport key.");
             powerTeleport();
         }
             
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            print("got shit");
+           // print("got shit");
             if (canPass == true)
                 canPass = false;
             else
@@ -80,7 +80,7 @@ public class CharacterMovement : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.G))
         {
-            print("got nodda");
+           // print("got nodda");
             if (changeBox == true)
                 changeBox = false;
             else
@@ -92,7 +92,7 @@ public class CharacterMovement : MonoBehaviour {
     public void powerTransfer()
     {
         //Transfer (enabling the player to "transfer" thier "hit" box behind them)
-        print("got transfer");
+        //print("got transfer");
         if (changeBox == true  && timeRemainingTransfer >= 0.0 )
         {        
             GetComponent<BoxCollider2D>().offset = new Vector2(secondBoxX, secondBoxY);
@@ -112,7 +112,7 @@ public class CharacterMovement : MonoBehaviour {
     public void powerTransparency()
     {
         //Transparency (enabling the player to "glitch" through certain boundaries.)
-        print("got transparency");
+        //print("got transparency");
         if (canPass == true && timeRemainingTransparency >= 0.0)
         {
             Physics2D.IgnoreLayerCollision(8, 10, true);  //Make sure that the "barriers" that the player needs to "phase" through are part of the barrier layer.

@@ -19,6 +19,7 @@ namespace UnityStandardAssets._2D
         private Animator m_Anim;            // Reference to the player's animator component.
         private Rigidbody2D m_Rigidbody2D;
         private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+        public bool canMove;
 
         
 
@@ -34,6 +35,9 @@ namespace UnityStandardAssets._2D
 
         private void FixedUpdate()
         {
+            if (!canMove)
+                return;
+
             m_Grounded = false;
 
             // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityStandardAssets._2D;
 
 public class TextBoxManager : MonoBehaviour {
 
@@ -12,7 +13,7 @@ public class TextBoxManager : MonoBehaviour {
 
     public int currentLine;
     public int endAtLine;
-    public PlayerCharacter player;
+    public PlatformerCharacter2D player;
 
     public bool isActive;
     public bool stopPlayerMovement;
@@ -22,7 +23,7 @@ public class TextBoxManager : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        player = FindObjectOfType<PlayerCharacter>();
+        player = FindObjectOfType<PlatformerCharacter2D>();
 
         if (textfile != null)
         {
@@ -52,24 +53,43 @@ public class TextBoxManager : MonoBehaviour {
 
         theText.text = textLines[currentLine];
 
-        if (Input.GetKeyDown(KeyCode.Space)) 
+        if (Input.GetKeyDown(KeyCode.K)) 
             currentLine++;
 
         if (currentLine > endAtLine)
+        {
             DisableTextBox();
+            
+        }
+            
     }
 
     public void EnableTextBox()
     {
         textBox.SetActive(true);
+        isActive = true;
         if (stopPlayerMovement)
+        {
             player.canMove = false;
+        }
+            
        
     }
 
     public void DisableTextBox()
     {
         textBox.SetActive(false);   //Once we get to the end of the "lines" we turn off the text block.
+        isActive = false;
         player.canMove = true;
+    }
+
+    public void ReloadScript(TextAsset theText)
+    {
+        //So we can use different scripts within the game
+        if(theText != null)
+        {
+            textLines = new string[1];
+            textLines = (theText.text.Split('\n'));
+        }
     }
 }
