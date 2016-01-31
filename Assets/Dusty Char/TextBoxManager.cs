@@ -4,10 +4,10 @@ using UnityEngine.UI;
 
 public class TextBoxManager : MonoBehaviour {
 
-    public GameObject textBox;
-    public Text theText;
+    public GameObject textBox; //This is the "panel" that is needed for the "dialog box"
+    public Text theText;        //This is the "text" section of the Panel box, for rendering text
 
-    public TextAsset textfile;
+    public TextAsset textfile;  //Whichever textfile that is needed to be "rendered" on the screen.
     public string[] textLines;
 
     public int currentLine;
@@ -22,26 +22,20 @@ public class TextBoxManager : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        player = FindObjectOfType<PlayerCharacter>();
+        player = FindObjectOfType<PlayerCharacter>(); //What ever you are using is what you should be "finding"
 
-        if (textfile != null)
-        {
+        if (textfile != null)       
             textLines = (textfile.text.Split('\n'));
-        }
-
-        if (endAtLine == 0)
-        {
-            endAtLine = textLines.Length - 1;
-        }
+        
+        if (endAtLine == 0)        
+            endAtLine = textLines.Length - 1;       
 
         if(isActive)
-        {
             EnableTextBox();
-        }
+        
         else
-        {
             DisableTextBox();
-        }
+        
 
     }
 
@@ -52,7 +46,7 @@ public class TextBoxManager : MonoBehaviour {
 
         theText.text = textLines[currentLine];
 
-        if (Input.GetKeyDown(KeyCode.Space)) 
+        if (Input.GetKeyDown(KeyCode.K)) 
             currentLine++;
 
         if (currentLine > endAtLine)
@@ -62,6 +56,7 @@ public class TextBoxManager : MonoBehaviour {
     public void EnableTextBox()
     {
         textBox.SetActive(true);
+        isActive = true;
         if (stopPlayerMovement)
             player.canMove = false;
        
@@ -71,5 +66,16 @@ public class TextBoxManager : MonoBehaviour {
     {
         textBox.SetActive(false);   //Once we get to the end of the "lines" we turn off the text block.
         player.canMove = true;
+        isActive = false;
+    }
+
+    public void ReloadScript(TextAsset theText)
+    {
+        if (theText != null) //making sure there is a file being passed in.
+        {
+            textLines = new string[1];  //take the array that already exists, remove it, and starts to fill it in with a new one....
+            textLines = (theText.text.Split('\n'));
+        }
+            
     }
 }
