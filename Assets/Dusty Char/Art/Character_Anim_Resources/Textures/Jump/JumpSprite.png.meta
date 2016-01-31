@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 47e85bd1c812a4b46a0ec669d8ad2c38
+timeCreated: 1454272883
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: JumpSprite_0
+    21300002: JumpSprite_1
+    21300004: JumpSprite_2
+    21300006: JumpSprite_3
+    21300008: JumpSprite_4
+    21300010: JumpSprite_5
+    21300012: JumpSprite_6
+    21300014: JumpSprite_7
+    21300016: JumpSprite_8
+    21300018: JumpSprite_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: JumpSprite_0
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1291
+        width: 88
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -88.5}
+        - {x: 11, y: -136.5}
+        - {x: 44, y: -136.5}
+        - {x: 44, y: 134.5}
+        - {x: 40, y: 136.5}
+        - {x: -5, y: 136.5}
+        - {x: -44, y: 51.5}
+        - {x: -44, y: -105.5}
+        - {x: -36, y: -135.5}
+        - {x: -30, y: -136.5}
+        - {x: -1, y: -136.5}
+        - {x: 1, y: -131.5}
+        - {x: 0, y: -125.5}
+        - {x: -2, y: -120.5}
+    - name: JumpSprite_1
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1300
+        width: 130
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -70.5}
+        - {x: 30, y: -83.5}
+        - {x: 32, y: -121.5}
+        - {x: 36, y: -126.5}
+        - {x: 62, y: -126.5}
+        - {x: 65, y: -125.5}
+        - {x: 65, y: 126.5}
+        - {x: 5, y: 126.5}
+        - {x: -65, y: 43.5}
+        - {x: -65, y: -56.5}
+        - {x: -10, y: -126.5}
+        - {x: 22, y: -126.5}
+        - {x: 30, y: -86.5}
+        - {x: 21, y: -72.5}
+        - {x: 15, y: -66.5}
+    - name: JumpSprite_2
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1300
+        width: 117
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: -62}
+        - {x: -12.5, y: -65}
+        - {x: 0.5, y: -79}
+        - {x: -1.5, y: -88}
+        - {x: 2.5, y: -118}
+        - {x: 5.5, y: -121}
+        - {x: 38.5, y: -121}
+        - {x: 58.5, y: 35}
+        - {x: 58.5, y: 121}
+        - {x: 15.5, y: 121}
+        - {x: 4.5, y: 100}
+        - {x: -58.5, y: 34}
+        - {x: -58.5, y: -89}
+        - {x: -42.5, y: -121}
+        - {x: -13.5, y: -121}
+        - {x: -8.5, y: -104}
+        - {x: -7.5, y: -74}
+        - {x: -10.5, y: -69}
+    - name: JumpSprite_3
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 1251
+        width: 113
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 132.5}
+        - {x: -56.5, y: 27.5}
+        - {x: -56.5, y: -124.5}
+        - {x: -47.5, y: -132.5}
+        - {x: -25.5, y: -132.5}
+        - {x: -19.5, y: -126.5}
+        - {x: -19.5, y: -76.5}
+        - {x: -22.5, y: -71.5}
+        - {x: -13.5, y: -83.5}
+        - {x: -8.5, y: -127.5}
+        - {x: -2.5, y: -132.5}
+        - {x: 24.5, y: -132.5}
+        - {x: 56.5, y: -107.5}
+        - {x: 56.5, y: 129.5}
+        - {x: 52.5, y: 132.5}
+    - name: JumpSprite_4
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1235
+        width: 136
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46, y: 140.5}
+        - {x: -68, y: 22.5}
+        - {x: -68, y: -98.5}
+        - {x: -62, y: -138.5}
+        - {x: -56, y: -140.5}
+        - {x: 24, y: -140.5}
+        - {x: 68, y: 8.5}
+        - {x: 68, y: 107.5}
+        - {x: 22, y: 140.5}
+    - name: JumpSprite_5
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 896
+        width: 100
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: 101}
+        - {x: 39, y: 101}
+        - {x: 33, y: 97}
+        - {x: 29, y: 92}
+        - {x: 27, y: 72}
+        - {x: 13, y: 62}
+        - {x: 10, y: 59}
+        - {x: 17, y: 67}
+        - {x: 18, y: 81}
+        - {x: -3, y: 136}
+        - {x: -9, y: 142}
+        - {x: -50, y: 142}
+        - {x: -50, y: -142}
+        - {x: 23, y: -142}
+        - {x: 39, y: -30}
+        - {x: 50, y: 71}
+        - {x: 50, y: 100}
+    - name: JumpSprite_6
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 868
+        width: 85
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: 142}
+        - {x: -42.5, y: -114}
+        - {x: -39.5, y: -142}
+        - {x: 42.5, y: -142}
+        - {x: 42.5, y: 142}
+    - name: JumpSprite_7
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 843
+        width: 126
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 141.5}
+        - {x: -62, y: 141.5}
+        - {x: -63, y: 140.5}
+        - {x: -63, y: -95.5}
+        - {x: -61, y: -141.5}
+        - {x: 9, y: -141.5}
+        - {x: 21, y: -137.5}
+        - {x: 63, y: -46.5}
+        - {x: 63, y: 101.5}
+    - name: JumpSprite_8
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 820
+        width: 106
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: -23}
+        - {x: 53, y: 10}
+        - {x: 17, y: 111}
+        - {x: -3, y: 142}
+        - {x: -53, y: 142}
+        - {x: -53, y: -140}
+        - {x: -45, y: -142}
+        - {x: 12, y: -142}
+        - {x: 14, y: -141}
+        - {x: 16, y: -128}
+        - {x: 11, y: -123}
+    - name: JumpSprite_9
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 820
+        width: 88
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 132}
+        - {x: -22, y: 105}
+        - {x: -44, y: 55}
+        - {x: -44, y: -68}
+        - {x: -28, y: -132}
+        - {x: 42, y: -132}
+        - {x: 44, y: -114}
+        - {x: 44, y: 132}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

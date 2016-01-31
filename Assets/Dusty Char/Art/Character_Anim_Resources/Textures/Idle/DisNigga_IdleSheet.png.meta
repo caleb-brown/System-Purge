@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 63e9457dd34fbf043a7733e73480648a
+timeCreated: 1454273647
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DisNigga_IdleSheet_0
+    21300002: DisNigga_IdleSheet_1
+    21300004: DisNigga_IdleSheet_2
+    21300006: DisNigga_IdleSheet_3
+    21300008: DisNigga_IdleSheet_4
+    21300010: DisNigga_IdleSheet_5
+    21300012: DisNigga_IdleSheet_6
+    21300014: DisNigga_IdleSheet_7
+    21300016: DisNigga_IdleSheet_8
+    21300018: DisNigga_IdleSheet_9
+    21300020: DisNigga_IdleSheet_10
+    21300022: DisNigga_IdleSheet_11
+    21300024: DisNigga_IdleSheet_12
+    21300026: DisNigga_IdleSheet_13
+    21300028: DisNigga_IdleSheet_14
+    21300030: DisNigga_IdleSheet_15
+    21300032: DisNigga_IdleSheet_16
+    21300034: DisNigga_IdleSheet_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DisNigga_IdleSheet_0
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1620
+        width: 95
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: -95}
+        - {x: -0.5, y: -112}
+        - {x: 15.5, y: -142}
+        - {x: 36.5, y: -142}
+        - {x: 47.5, y: -139}
+        - {x: 47.5, y: 67}
+        - {x: 46.5, y: 92}
+        - {x: 16.5, y: 138}
+        - {x: 4.5, y: 142}
+        - {x: -31.5, y: 142}
+        - {x: -47.5, y: 45}
+        - {x: -47.5, y: -77}
+        - {x: -30.5, y: -141}
+        - {x: -26.5, y: -142}
+        - {x: 4.5, y: -142}
+        - {x: 5.5, y: -138}
+        - {x: 6.5, y: -127}
+        - {x: -8.5, y: -108}
+    - name: DisNigga_IdleSheet_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1621
+        width: 95
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: -141.5}
+        - {x: 33.5, y: -141.5}
+        - {x: 45.5, y: -137.5}
+        - {x: 47.5, y: -128.5}
+        - {x: 47.5, y: -116.5}
+        - {x: 22.5, y: -32.5}
+        - {x: 19.5, y: -15.5}
+        - {x: 24.5, y: -34.5}
+        - {x: 37.5, y: -46.5}
+        - {x: 47.5, y: -44.5}
+        - {x: 47.5, y: 13.5}
+        - {x: 38.5, y: 114.5}
+        - {x: 10.5, y: 141.5}
+        - {x: -32.5, y: 141.5}
+        - {x: -47.5, y: 117.5}
+        - {x: -47.5, y: -107.5}
+        - {x: -37.5, y: -141.5}
+        - {x: 1.5, y: -141.5}
+        - {x: 7.5, y: -135.5}
+        - {x: 3.5, y: -123.5}
+        - {x: 9.5, y: -136.5}
+    - name: DisNigga_IdleSheet_2
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1621
+        width: 105
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -141.5}
+        - {x: 47.5, y: -137.5}
+        - {x: 52.5, y: -122.5}
+        - {x: 52.5, y: 51.5}
+        - {x: 32.5, y: 141.5}
+        - {x: -30.5, y: 141.5}
+        - {x: -52.5, y: 24.5}
+        - {x: -52.5, y: -70.5}
+        - {x: -35.5, y: -141.5}
+        - {x: 1.5, y: -141.5}
+        - {x: 3.5, y: -135.5}
+        - {x: -0.5, y: -123.5}
+        - {x: 6.5, y: -141.5}
+    - name: DisNigga_IdleSheet_3
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1616
+        width: 105
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: -141}
+        - {x: 27.5, y: -141}
+        - {x: 44.5, y: -135}
+        - {x: 52.5, y: -107}
+        - {x: 52.5, y: 52}
+        - {x: 20.5, y: 141}
+        - {x: -26.5, y: 141}
+        - {x: -32.5, y: 136}
+        - {x: -48.5, y: 41}
+        - {x: -52.5, y: 9}
+        - {x: -52.5, y: -45}
+        - {x: -29.5, y: -135}
+        - {x: -25.5, y: -141}
+        - {x: -4.5, y: -141}
+        - {x: 1.5, y: -136}
+        - {x: 3.5, y: -128}
+        - {x: 6.5, y: -135}
+    - name: DisNigga_IdleSheet_4
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1624
+        width: 125
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.5, y: -126}
+        - {x: 32.5, y: -107}
+        - {x: 19.5, y: -10}
+        - {x: 13.5, y: -3}
+        - {x: 50.5, y: -31}
+        - {x: 62.5, y: -29}
+        - {x: 62.5, y: 99}
+        - {x: 31.5, y: 139}
+        - {x: -42.5, y: 139}
+        - {x: -62.5, y: 39}
+        - {x: -62.5, y: -67}
+        - {x: -32.5, y: -139}
+        - {x: 1.5, y: -139}
+        - {x: 7.5, y: -132}
+        - {x: 12.5, y: -137}
+        - {x: 29.5, y: -135}
+    - name: DisNigga_IdleSheet_5
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1620
+        width: 123
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: -126}
+        - {x: 13.5, y: -136}
+        - {x: 31.5, y: -133}
+        - {x: 38.5, y: -126}
+        - {x: 34.5, y: -111}
+        - {x: 18.5, y: -7}
+        - {x: 13.5, y: -3}
+        - {x: 51.5, y: -31}
+        - {x: 61.5, y: -33}
+        - {x: 61.5, y: 30}
+        - {x: 34.5, y: 131}
+        - {x: 17.5, y: 139}
+        - {x: -32.5, y: 139}
+        - {x: -61.5, y: 45}
+        - {x: -61.5, y: -62}
+        - {x: -29.5, y: -139}
+        - {x: -0.5, y: -139}
+        - {x: 3.5, y: -124}
+        - {x: -7.5, y: -107}
+        - {x: -7.5, y: -113}
+    - name: DisNigga_IdleSheet_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1312
+        width: 113
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: -77}
+        - {x: -13.5, y: -65}
+        - {x: -2.5, y: -127}
+        - {x: 2.5, y: -136}
+        - {x: 26.5, y: -136}
+        - {x: 31.5, y: -127}
+        - {x: 12.5, y: -69}
+        - {x: 52.5, y: -47}
+        - {x: 56.5, y: -44}
+        - {x: 56.5, y: -13}
+        - {x: 50.5, y: 2}
+        - {x: 23.5, y: 136}
+        - {x: -35.5, y: 136}
+        - {x: -56.5, y: 65}
+        - {x: -56.5, y: -68}
+        - {x: -35.5, y: -136}
+        - {x: -11.5, y: -136}
+        - {x: -3.5, y: -128}
+        - {x: -10.5, y: -114}
+        - {x: -16.5, y: -82}
+    - name: DisNigga_IdleSheet_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1314
+        width: 116
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -134}
+        - {x: 38, y: -129}
+        - {x: 58, y: -58}
+        - {x: 58, y: 8}
+        - {x: 11, y: 134}
+        - {x: -32, y: 134}
+        - {x: -41, y: 130}
+        - {x: -58, y: 83}
+        - {x: -58, y: -101}
+        - {x: -54, y: -134}
+        - {x: -12, y: -134}
+        - {x: -5, y: -127}
+        - {x: -8, y: -120}
+        - {x: -1, y: -134}
+    - name: DisNigga_IdleSheet_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1298
+        width: 96
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -86}
+        - {x: -8, y: -135}
+        - {x: 5, y: -147}
+        - {x: 16, y: -147}
+        - {x: 24, y: -144}
+        - {x: 31, y: -138}
+        - {x: 48, y: -98}
+        - {x: 48, y: 62}
+        - {x: 24, y: 147}
+        - {x: -48, y: 147}
+        - {x: -48, y: -147}
+        - {x: -10, y: -147}
+        - {x: -7, y: -137}
+        - {x: -15, y: -118}
+        - {x: -7, y: -101}
+    - name: DisNigga_IdleSheet_9
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1296
+        width: 95
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: -143}
+        - {x: 19.5, y: -147}
+        - {x: 47.5, y: -129}
+        - {x: 47.5, y: 148}
+        - {x: -30.5, y: 148}
+        - {x: -33.5, y: 147}
+        - {x: -46.5, y: 113}
+        - {x: -47.5, y: 102}
+        - {x: -47.5, y: -133}
+        - {x: -39.5, y: -148}
+        - {x: -14.5, y: -148}
+        - {x: -8.5, y: -143}
+        - {x: -6.5, y: -133}
+        - {x: -4.5, y: -85}
+        - {x: -4.5, y: -136}
+    - name: DisNigga_IdleSheet_10
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1303
+        width: 78
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: -140}
+        - {x: 22, y: -142}
+        - {x: 33, y: -142}
+        - {x: 39, y: -136}
+        - {x: 39, y: 63}
+        - {x: 17, y: 142}
+        - {x: -28, y: 142}
+        - {x: -39, y: 135}
+        - {x: -39, y: -95}
+        - {x: -27, y: -142}
+        - {x: 5, y: -142}
+        - {x: 4, y: -128}
+        - {x: 2, y: -82}
+        - {x: 7, y: -135}
+    - name: DisNigga_IdleSheet_11
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1303
+        width: 80
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 142}
+        - {x: -40, y: -107}
+        - {x: -33, y: -142}
+        - {x: 40, y: -142}
+        - {x: 40, y: 135}
+        - {x: 23, y: 142}
+    - name: DisNigga_IdleSheet_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1008
+        width: 97
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: -100}
+        - {x: 8.5, y: -130}
+        - {x: 13.5, y: -135}
+        - {x: 26.5, y: -139}
+        - {x: 41.5, y: -134}
+        - {x: 48.5, y: -106}
+        - {x: 48.5, y: 77}
+        - {x: 43.5, y: 107}
+        - {x: 0.5, y: 139}
+        - {x: -30.5, y: 139}
+        - {x: -39.5, y: 128}
+        - {x: -48.5, y: 53}
+        - {x: -48.5, y: -42}
+        - {x: -40.5, y: -47}
+        - {x: -26.5, y: -40}
+        - {x: -23.5, y: -32}
+        - {x: -23.5, y: -1}
+        - {x: -19.5, y: 3}
+        - {x: -18.5, y: 6}
+        - {x: -16.5, y: 5}
+        - {x: -20.5, y: 3}
+        - {x: -20.5, y: 0}
+        - {x: -22.5, y: -32}
+        - {x: -19.5, y: -36}
+        - {x: -31.5, y: -103}
+        - {x: -25.5, y: -139}
+        - {x: 1.5, y: -139}
+        - {x: 6.5, y: -126}
+        - {x: -0.5, y: -109}
+        - {x: 4.5, y: -93}
+    - name: DisNigga_IdleSheet_13
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1012
+        width: 97
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: -129}
+        - {x: 15.5, y: -139}
+        - {x: 48.5, y: -139}
+        - {x: 48.5, y: 139}
+        - {x: -48.5, y: 139}
+        - {x: -48.5, y: -48}
+        - {x: -34.5, y: -46}
+        - {x: -23.5, y: -31}
+        - {x: -22.5, y: 2}
+        - {x: -22.5, y: 4}
+        - {x: -20.5, y: 7}
+        - {x: -22.5, y: 3}
+        - {x: -22.5, y: 0}
+        - {x: -19.5, y: -5}
+        - {x: -23.5, y: -20}
+        - {x: -22.5, y: -35}
+        - {x: -15.5, y: -41}
+        - {x: -20.5, y: -60}
+        - {x: -33.5, y: -103}
+        - {x: -29.5, y: -139}
+        - {x: -0.5, y: -139}
+        - {x: 6.5, y: -137}
+        - {x: -3.5, y: -102}
+        - {x: 0.5, y: -90}
+        - {x: 1.5, y: -105}
+    - name: DisNigga_IdleSheet_14
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1005
+        width: 113
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 142}
+        - {x: -39.5, y: 142}
+        - {x: -56.5, y: 60}
+        - {x: -56.5, y: -81}
+        - {x: -26.5, y: -142}
+        - {x: 6.5, y: -142}
+        - {x: 13.5, y: -130}
+        - {x: 9.5, y: -126}
+        - {x: 18.5, y: -105}
+        - {x: 15.5, y: -137}
+        - {x: 23.5, y: -142}
+        - {x: 52.5, y: -142}
+        - {x: 56.5, y: -137}
+        - {x: 56.5, y: 104}
+        - {x: 55.5, y: 111}
+    - name: DisNigga_IdleSheet_15
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1008
+        width: 113
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 142.5}
+        - {x: -56.5, y: 105.5}
+        - {x: -56.5, y: -35.5}
+        - {x: -53.5, y: -36.5}
+        - {x: -40.5, y: -36.5}
+        - {x: -28.5, y: -122.5}
+        - {x: -13.5, y: -142.5}
+        - {x: 5.5, y: -142.5}
+        - {x: 7.5, y: -140.5}
+        - {x: 12.5, y: -129.5}
+        - {x: 18.5, y: -94.5}
+        - {x: 19.5, y: -75.5}
+        - {x: 19.5, y: -104.5}
+        - {x: 14.5, y: -133.5}
+        - {x: 21.5, y: -142.5}
+        - {x: 56.5, y: -142.5}
+        - {x: 56.5, y: 76.5}
+        - {x: 14.5, y: 142.5}
+    - name: DisNigga_IdleSheet_16
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 996
+        width: 84
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 152}
+        - {x: -42, y: -120}
+        - {x: -37, y: -147}
+        - {x: -21, y: -152}
+        - {x: -3, y: -152}
+        - {x: 4, y: -142}
+        - {x: 5, y: -147}
+        - {x: 11, y: -152}
+        - {x: 42, y: -152}
+        - {x: 42, y: 103}
+        - {x: 29, y: 152}
+    - name: DisNigga_IdleSheet_17
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 995
+        width: 82
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 151.5}
+        - {x: -34, y: 145.5}
+        - {x: -41, y: 72.5}
+        - {x: -41, y: -101.5}
+        - {x: -35, y: -145.5}
+        - {x: -20, y: -152.5}
+        - {x: -8, y: -152.5}
+        - {x: 3, y: -144.5}
+        - {x: -1, y: -129.5}
+        - {x: -1, y: -92.5}
+        - {x: 4, y: -147.5}
+        - {x: 10, y: -152.5}
+        - {x: 41, y: -152.5}
+        - {x: 41, y: 103.5}
+        - {x: 25, y: 151.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public static GameState gState;
 
     public Dictionary<GameState, string> levelDictionary;
+    public static bool isPaused;
 
     private GameObject[] tagged_objects;
     private ISceneObject[] scene_objects;
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour
     {
         if (gManager == this)
         {
+            isPaused = false;
             iManager = new InputManager(0.1f, 0.2f); // It could be helpful, I guess.
             tagged_objects = GameObject.FindGameObjectsWithTag("Scene_Object");
             scene_objects = new ISceneObject[tagged_objects.Length];
@@ -45,6 +47,10 @@ public class GameManager : MonoBehaviour
                                                                     { GameState.TLEVELTWO, "GMLevel2" } };
             // This will break on regular levels, handle regular levels separately.
             GameManager.gState = levelDictionary.FirstOrDefault(x => x.Value == _testLevelPrefix + SceneManager.GetActiveScene().name).Key;
+            if(GameManager.m_Camera != null)
+            {
+                transform.Find("PauseScreen").gameObject.GetComponent<Canvas>().worldCamera = GameManager.m_Camera;
+            }
         }
     }
 
@@ -66,6 +72,29 @@ public class GameManager : MonoBehaviour
         yield break;
     }
 
+    public void Pause()
+    {
+        if(Time.timeScale != 0.0f)
+        {
+            Time.timeScale = 0.0f;
+        }
+        transform.Find("PauseScreen").gameObject.SetActive(true);
+    }
+
+    public void UnPause()
+    {
+        if (Time.timeScale == 0.0f)
+        {
+            Time.timeScale = 1.0f;
+        }
+        transform.Find("PauseScreen").gameObject.SetActive(false);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
     /// <summary>
     /// Update all scene objects in one update loop.
     /// </summary>
@@ -85,5 +114,12 @@ public class GameManager : MonoBehaviour
         if (GameManager.m_Camera == null)
             throw new Exception("We did not assign a main camera.");
         // It can be the case that there is no character in the scene (i.e. main menu) so we won't check for that.
+
+        if(GameManager.m_Character != null)
+        {
+            // Loosely stick us to the player in the event that a player exists.
+            print(GameManager.m_Character.transform.position);
+            transform.position = GameManager.m_Character.transform.position;
+        }
     }
 }

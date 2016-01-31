@@ -96,7 +96,22 @@ public class CharacterMovement : MonoBehaviour {
             else
                 changeBox = true;
         }
-                                             
+
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            print("Got escape");
+            if (!GameManager.isPaused)
+            {
+                GameManager.gManager.Pause();
+                GameManager.isPaused = true;
+            }
+            else
+            {
+                GameManager.gManager.UnPause();
+                GameManager.isPaused = false;
+            }
+        }
+
     }
 
     public void powerTransfer()
