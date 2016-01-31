@@ -29,13 +29,13 @@ public class MovingPlatform : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Scene_Object")
             other.transform.parent = transform;
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Scene_Object")
             other.transform.parent = null;
     }
 }
