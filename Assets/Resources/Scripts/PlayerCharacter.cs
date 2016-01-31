@@ -14,7 +14,7 @@ public class PlayerCharacter : Controller, ISceneObject {
     // TPC Editor Variables
     public float surfaceNormalAngleThreshold, jumpMagnitude, chargeSpeedModifier, wallRayCastDistance;
     private float distanceToWall;
-
+    public bool canMove;
     public void Initialize()
     {
         // Put initialization code here.
@@ -30,6 +30,7 @@ public class PlayerCharacter : Controller, ISceneObject {
         wallHit = new RaycastHit();
         joystickMovement = Vector2.zero;
         jumpMovement = Vector2.zero;
+       
     }
 
 	public void ObjectUpdate()
@@ -37,6 +38,9 @@ public class PlayerCharacter : Controller, ISceneObject {
         print(onGround);
         movementVector = GameManager.iManager.movementVector; // Shorthand for the InputManager's movement vector.
         movementIntensity = GameManager.iManager.movementIntensity;
+
+        if (!canMove)
+            return;
 
         // Put update code here.
         if(movementIntensity > 0.0f)
