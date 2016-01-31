@@ -2,5 +2,6 @@ See Carlos, I told you that you'd get the hang of it.
 But now it gets trickier, I'm afraid they've changed the code to 
  some of the floors, but don't worry Nick, for I shall tell you   how to get ahead.  Just use your bit shifting abilities and no
    floor or wall will be matched for you!
-(Press 'Q' to use the Bit Shifting ability to temporarily phase
+(Press 'R' to use the Bit Shifting ability to temporarily phase
   through certain walls and floors) 
+

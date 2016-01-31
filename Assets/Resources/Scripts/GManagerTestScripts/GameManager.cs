@@ -6,6 +6,7 @@ using UnityStandardAssets._2D;
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets._2D;
 
 public class GameManager : MonoBehaviour
 {
@@ -44,7 +45,11 @@ public class GameManager : MonoBehaviour
                 scene_objects[j].Initialize();
             }
             levelDictionary = new Dictionary<GameState, string>() { { GameState.TLEVELONE, "GMLevel1" },
-                                                                    { GameState.TLEVELTWO, "GMLevel2" } };
+                                                                    { GameState.TLEVELTWO, "GMLevel2" },
+                {GameState.LEVELONE, "Level1" },
+                {GameState.LEVELTWO, "Level2" },
+                { GameState.LEVELTHREE, "Level3"},
+                {GameState.LEVELFOUR, "Level4" } };
             // This will break on regular levels, handle regular levels separately.
             GameManager.gState = levelDictionary.FirstOrDefault(x => x.Value == _testLevelPrefix + SceneManager.GetActiveScene().name).Key;
             if(GameManager.m_Camera != null)
@@ -52,6 +57,11 @@ public class GameManager : MonoBehaviour
                 transform.Find("PauseScreen").gameObject.GetComponent<Canvas>().worldCamera = GameManager.m_Camera;
             }
         }
+    }
+
+    void OnLevelWasLoaded(int level)
+    {
+        GameManager.m_Character.transform.position = GameObject.Find("SpawnPoint").transform.position;
     }
 
     public IEnumerator SetGameStateAndLoad(string levelName)

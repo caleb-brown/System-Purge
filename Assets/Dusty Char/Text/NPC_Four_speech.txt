@@ -4,5 +4,6 @@ Karl! Glad you made it to this level...the System's Defenses are
    these platforms.  
 Don't worry Kyle, I'm sure that after a few tries you'll get the 
  hang of it.
-(Press 'T' to use your glitching abilities and launch yourself 
+(Press 'Q' to use your GOTO abilities and launch yourself 
   forward to make it onto other platforms)
+

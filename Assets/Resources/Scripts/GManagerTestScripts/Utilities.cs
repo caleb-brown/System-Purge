@@ -48,7 +48,11 @@ namespace GameUtils
         TITLE, // index 0
         MAINMENU, // index 1
         TLEVELONE,
-        TLEVELTWO
+        TLEVELTWO,
+        LEVELONE,
+        LEVELTWO,
+        LEVELTHREE,
+        LEVELFOUR
         // ... this goes on to define levels, most useful if kept in the same loading order that is to be used during build.
     }
 }
