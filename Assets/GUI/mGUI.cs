@@ -11,7 +11,6 @@ public class mGUI : MonoBehaviour
     float nativeWidth = 640;
     float nativeHeight = 400;
     float percentHealth;
-    int healthBarLength = 400;
     Matrix4x4 guiMatrix;
 
     void Start()
@@ -34,20 +33,20 @@ public class mGUI : MonoBehaviour
         GUI.matrix = GetGUIMatrix();
         // Create one Group to contain both images
         // Adjust the first 2 coordinates to place it somewhere else on-screen
-        GUI.BeginGroup(new Rect(0, 0, 640, 400));
+        GUI.BeginGroup(new Rect(0, 0, 207, 82));
 
         // Draw the background image
         GUI.backgroundColor = new Color(0, 0, 0, 0.0f);
-        GUI.Box(new Rect(0, 0, 620, 400), bgImage);
+        GUI.Box(new Rect(0, 0, 207, 82), bgImage);
        
         percentHealth = curHealth / maxHealth;
         // Create a second Group which will be clipped
         // We want to clip the image and not scale it, which is why we need the second Group
-        GUI.BeginGroup(new Rect(0, 0, percentHealth * 640, 400));
+        GUI.BeginGroup(new Rect(0, 0, percentHealth * 207, 82));
 
         // Draw the foreground image
         GUI.backgroundColor = new Color(0, 0, 0, 0.0f);
-        GUI.Box(new Rect(0, 0, 620, 400), fgImage);
+        GUI.Box(new Rect(0, 0, 207, 82), fgImage);
        
 
         // End both Groups
