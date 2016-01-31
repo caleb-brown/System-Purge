@@ -25,12 +25,10 @@ public class seeking : state
     public void Execute()
     {
         seeplayer();
-        if (isSee)
+        if (!isSee)
             enemy.changestate(new idle());
         else
             Chase();
-        
-       
     }
     public void Exit(){}
     public void onTriggerEnter(Collider2D other){}
@@ -63,7 +61,7 @@ public class seeking : state
     public void Chase()
     {
         Vector2 myVel = myBody.velocity;
-        if(!enemy.rightdirection)
+        if(enemy.rightdirection)
             myVel.x = myTrans.right.x * speed;
         else
             myVel.x = myTrans.right.x * -speed;

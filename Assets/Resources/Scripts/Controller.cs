@@ -29,6 +29,7 @@ public class Controller : MonoBehaviour
     public bool groundCast, isBoxColliding;
     private Vector3 commonGroundSearchPoint;
     private Vector2 jumpCheckObjectPosition;
+    private Transform position;
     private Transform jumpCheckObject;
 
     void Awake()
@@ -50,5 +51,4 @@ public class Controller : MonoBehaviour
         else{onGround = false;}
     }
     public virtual void HandleInput() { } // Note that one input should move the variable camera position object around the player...
-
 }

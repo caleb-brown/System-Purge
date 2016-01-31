@@ -7,7 +7,9 @@ public class idle : state
 {
     private ISceneObject manager;
     private Enemy enemy;
-    private float time = 0;
+    public float time;
+    private Rigidbody2D myBody;
+
     public void Execute()
     {
         Idle();
@@ -22,7 +24,7 @@ public class idle : state
     public void Idle()
     {
         time += Time.deltaTime;
-        if (time >= 3)
+        if (time >= enemy.time[0])
             enemy.changestate(new wander());
     }
 }

@@ -8,11 +8,11 @@ public class Enemy : Controller{
     private state currentState;
     public LayerMask enemyMask;
     public bool rightdirection;
+    public float[] time = new float[10];
+
     // Use this for initialization
     void Start ()
     {
-        rightdirection = true;
-        isAir = false;
         print("start");
         changestate(new idle());
 	}
