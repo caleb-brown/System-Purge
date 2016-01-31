@@ -35,6 +35,9 @@ namespace UnityStandardAssets._2D
 
         private void FixedUpdate()
         {
+            if (!canMove)
+                return;
+
             // Read the inputs.
             bool crouch = Input.GetKey(KeyCode.LeftControl);
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
