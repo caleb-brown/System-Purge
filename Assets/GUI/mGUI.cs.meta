@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 648f4d518e7553e43bfc19b27ce55c9b
+timeCreated: 1454186720
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mySkin: {fileID: 11400000, guid: 35ff26cd2821a324b9bfa066cd48b571, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
