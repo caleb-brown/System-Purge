@@ -1,0 +1,497 @@
+fileFormatVersion: 2
+guid: 02cb3e4982ed7e14785431e92bfe45d8
+timeCreated: 1454191777
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DisNigga_TeleSheet_0
+    21300002: DisNigga_TeleSheet_1
+    21300004: DisNigga_TeleSheet_2
+    21300006: DisNigga_TeleSheet_3
+    21300008: DisNigga_TeleSheet_4
+    21300010: DisNigga_TeleSheet_5
+    21300012: DisNigga_TeleSheet_6
+    21300014: DisNigga_TeleSheet_7
+    21300016: DisNigga_TeleSheet_8
+    21300018: DisNigga_TeleSheet_9
+    21300020: DisNigga_TeleSheet_10
+    21300022: DisNigga_TeleSheet_11
+    21300024: DisNigga_TeleSheet_12
+    21300026: DisNigga_TeleSheet_13
+    21300028: DisNigga_TeleSheet_14
+    21300030: DisNigga_TeleSheet_15
+    21300032: DisNigga_TeleSheet_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DisNigga_TeleSheet_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 711
+        width: 149
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: -66}
+        - {x: -0.5, y: -81}
+        - {x: -2.5, y: -121}
+        - {x: 2.5, y: -136}
+        - {x: 35.5, y: -136}
+        - {x: 35.5, y: 142}
+        - {x: -40.5, y: 142}
+        - {x: -44.5, y: 131}
+        - {x: -44.5, y: -136}
+        - {x: -12.5, y: -136}
+        - {x: -7.5, y: -135}
+        - {x: -2.5, y: -127}
+        - {x: -3.5, y: -124}
+        - {x: -5.5, y: -83}
+    - name: DisNigga_TeleSheet_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 707
+        width: 129
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: -117.5}
+        - {x: 35.5, y: -117.5}
+        - {x: 35.5, y: 131.5}
+        - {x: -28.5, y: 131.5}
+        - {x: -34.5, y: 130.5}
+        - {x: -45.5, y: 104.5}
+        - {x: -45.5, y: -117.5}
+        - {x: -5.5, y: -117.5}
+        - {x: 0.5, y: -105.5}
+        - {x: -3.5, y: -58.5}
+        - {x: 1.5, y: -109.5}
+    - name: DisNigga_TeleSheet_2
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 710
+        width: 133
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: -122}
+        - {x: 28.5, y: -122}
+        - {x: 39.5, y: -117}
+        - {x: 39.5, y: 82}
+        - {x: 28.5, y: 105}
+        - {x: -18.5, y: 105}
+        - {x: -40.5, y: 83}
+        - {x: -40.5, y: -115}
+        - {x: -31.5, y: -122}
+        - {x: -4.5, y: -122}
+        - {x: 3.5, y: -115}
+        - {x: -1.5, y: -73}
+        - {x: 3.5, y: -113}
+    - name: DisNigga_TeleSheet_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 712
+        width: 143
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: -37.5}
+        - {x: 9.5, y: -80.5}
+        - {x: 16.5, y: -89.5}
+        - {x: 30.5, y: -89.5}
+        - {x: 44.5, y: -85.5}
+        - {x: 44.5, y: 103.5}
+        - {x: -31.5, y: 103.5}
+        - {x: -35.5, y: 96.5}
+        - {x: -35.5, y: -85.5}
+        - {x: -27.5, y: -89.5}
+        - {x: -0.5, y: -89.5}
+        - {x: 7.5, y: -82.5}
+        - {x: 5.5, y: -76.5}
+        - {x: 1.5, y: -70.5}
+    - name: DisNigga_TeleSheet_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 448
+        width: 142
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -87.5}
+        - {x: 46, y: -85.5}
+        - {x: 46, y: 86.5}
+        - {x: -46, y: 86.5}
+        - {x: -46, y: -75.5}
+        - {x: -44, y: -87.5}
+        - {x: -4, y: -87.5}
+        - {x: 3, y: -79.5}
+        - {x: 1, y: -70.5}
+        - {x: 6, y: -78.5}
+        - {x: 15, y: -87.5}
+    - name: DisNigga_TeleSheet_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 452
+        width: 129
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -78}
+        - {x: 47.5, y: -78}
+        - {x: 47.5, y: -5}
+        - {x: 41.5, y: 31}
+        - {x: 23.5, y: 41}
+        - {x: -26.5, y: 41}
+        - {x: -30.5, y: 18}
+        - {x: -30.5, y: -72}
+        - {x: -22.5, y: -78}
+        - {x: -0.5, y: -78}
+        - {x: 6.5, y: -71}
+        - {x: 9.5, y: -62}
+        - {x: 10.5, y: -69}
+    - name: DisNigga_TeleSheet_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 445
+        width: 125
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: -8.5}
+        - {x: -37.5, y: -21.5}
+        - {x: -37.5, y: -66.5}
+        - {x: -31.5, y: -68.5}
+        - {x: -5.5, y: -68.5}
+        - {x: -1.5, y: -62.5}
+        - {x: -1.5, y: -35.5}
+        - {x: -12.5, y: -8.5}
+      - - {x: 35.5, y: -42.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 26.5, y: -13.5}
+        - {x: 24.5, y: -10.5}
+        - {x: 4.5, y: -10.5}
+        - {x: 2.5, y: -19.5}
+        - {x: 2.5, y: -66.5}
+        - {x: 37.5, y: -66.5}
+        - {x: 40.5, y: -61.5}
+        - {x: 40.5, y: -49.5}
+    - name: DisNigga_TeleSheet_7
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 443
+        width: 136
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -33}
+        - {x: -41, y: -38}
+        - {x: -41, y: -51}
+        - {x: -32, y: -59}
+        - {x: -15, y: -59}
+        - {x: -7, y: -54}
+        - {x: -7, y: -41}
+        - {x: -9, y: -33}
+      - - {x: 0, y: -35}
+        - {x: 0, y: -54}
+        - {x: 2, y: -57}
+        - {x: 34, y: -57}
+        - {x: 35, y: -54}
+        - {x: 35, y: -35}
+    - name: DisNigga_TeleSheet_8
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 441
+        width: 110
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -59}
+        - {x: -31, y: -103}
+        - {x: 8, y: -138}
+        - {x: 22, y: -138}
+        - {x: 22, y: -56}
+        - {x: -28, y: -56}
+      - - {x: -34, y: 38}
+        - {x: -34, y: -34}
+        - {x: 22, y: -34}
+        - {x: 22, y: 38}
+      - - {x: -34, y: 137}
+        - {x: -34, y: 87}
+        - {x: 2, y: 55}
+        - {x: 17, y: 55}
+        - {x: 20, y: 56}
+        - {x: 20, y: 132}
+        - {x: 7, y: 137}
+    - name: DisNigga_TeleSheet_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 225
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -6}
+        - {x: -9, y: -3}
+        - {x: -28, y: -3}
+        - {x: -34, y: -8}
+        - {x: -34, y: -20}
+        - {x: -31, y: -31}
+        - {x: -3, y: -31}
+        - {x: 3, y: -24}
+        - {x: 3, y: -11}
+      - - {x: 11, y: -5}
+        - {x: 11, y: -22}
+        - {x: 15, y: -29}
+        - {x: 40, y: -29}
+        - {x: 47, y: -22}
+        - {x: 47, y: -7}
+        - {x: 32, y: -5}
+    - name: DisNigga_TeleSheet_10
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 254
+        width: 121
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 11.5}
+        - {x: -48.5, y: 2.5}
+        - {x: -48.5, y: -43.5}
+        - {x: -46.5, y: -52.5}
+        - {x: -14.5, y: -52.5}
+        - {x: -9.5, y: -47.5}
+        - {x: -9.5, y: -28.5}
+        - {x: -20.5, y: 11.5}
+      - - {x: -4.5, y: -45.5}
+        - {x: 1.5, y: -50.5}
+        - {x: 29.5, y: -50.5}
+        - {x: 37.5, y: -46.5}
+        - {x: 37.5, y: -25.5}
+        - {x: 22.5, y: 9.5}
+        - {x: 16.5, y: 10.5}
+        - {x: 0.5, y: 10.5}
+        - {x: -4.5, y: 3.5}
+    - name: DisNigga_TeleSheet_11
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 246
+        width: 116
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -62.5}
+        - {x: 13, y: -72.5}
+        - {x: 41, y: -72.5}
+        - {x: 43, y: -65.5}
+        - {x: 43, y: -17.5}
+        - {x: 33, y: 56.5}
+        - {x: -41, y: 56.5}
+        - {x: -41, y: -71.5}
+        - {x: -38, y: -72.5}
+        - {x: -6, y: -72.5}
+        - {x: -1, y: -54.5}
+        - {x: -6, y: 8.5}
+        - {x: -3, y: -32.5}
+    - name: DisNigga_TeleSheet_12
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 247
+        width: 131
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: -0.5}
+        - {x: -10.5, y: -50.5}
+        - {x: -1.5, y: -90.5}
+        - {x: 11.5, y: -90.5}
+        - {x: 26.5, y: -89.5}
+        - {x: 37.5, y: -80.5}
+        - {x: 38.5, y: -62.5}
+        - {x: 38.5, y: 96.5}
+        - {x: -60.5, y: 96.5}
+        - {x: -61.5, y: 95.5}
+        - {x: -61.5, y: -7.5}
+        - {x: -51.5, y: -80.5}
+        - {x: -43.5, y: -90.5}
+        - {x: -15.5, y: -90.5}
+        - {x: -11.5, y: -85.5}
+        - {x: -7.5, y: -76.5}
+        - {x: -11.5, y: -59.5}
+    - name: DisNigga_TeleSheet_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 119
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: -33.5}
+        - {x: -10.5, y: -69.5}
+        - {x: -4.5, y: -103.5}
+        - {x: 28.5, y: -103.5}
+        - {x: 28.5, y: 84.5}
+        - {x: -50.5, y: 84.5}
+        - {x: -50.5, y: -103.5}
+        - {x: -13.5, y: -103.5}
+        - {x: -9.5, y: -98.5}
+        - {x: -6.5, y: -90.5}
+        - {x: -14.5, y: -73.5}
+    - name: DisNigga_TeleSheet_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 108
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 102.5}
+        - {x: -48, y: 61.5}
+        - {x: -48, y: -93.5}
+        - {x: -44, y: -119.5}
+        - {x: 32, y: -119.5}
+        - {x: 32, y: 102.5}
+    - name: DisNigga_TeleSheet_15
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 97
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: -58}
+        - {x: -4.5, y: -90}
+        - {x: -0.5, y: -119}
+        - {x: 5.5, y: -126}
+        - {x: 31.5, y: -126}
+        - {x: 35.5, y: -106}
+        - {x: 35.5, y: 107}
+        - {x: 32.5, y: 119}
+        - {x: -28.5, y: 119}
+        - {x: -33.5, y: 118}
+        - {x: -45.5, y: 75}
+        - {x: -45.5, y: -88}
+        - {x: -42.5, y: -122}
+        - {x: -31.5, y: -126}
+        - {x: -6.5, y: -126}
+        - {x: -3.5, y: -121}
+        - {x: -2.5, y: -112}
+        - {x: -8.5, y: -78}
+    - name: DisNigga_TeleSheet_16
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 0
+        width: 105
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: -138.5}
+        - {x: 12.5, y: -144.5}
+        - {x: 39.5, y: -144.5}
+        - {x: 39.5, y: 127.5}
+        - {x: -28.5, y: 127.5}
+        - {x: -40.5, y: 66.5}
+        - {x: -40.5, y: -124.5}
+        - {x: -37.5, y: -142.5}
+        - {x: -30.5, y: -144.5}
+        - {x: 1.5, y: -144.5}
+        - {x: 3.5, y: -139.5}
+        - {x: 1.5, y: -130.5}
+        - {x: -3.5, y: -76.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
