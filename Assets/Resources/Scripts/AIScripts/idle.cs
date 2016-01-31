@@ -16,15 +16,22 @@ public class idle : state
     }
     public void Enter(Enemy enemy)
     {
+		time = 0;
         Debug.Log("idle");
         this.enemy = enemy;
+		enemy.idle = true;
+		enemy.wander = false;
     }
     public void Exit(){}
     public void onTriggerEnter(Collider2D other){}
     public void Idle()
     {
         time += Time.deltaTime;
-        if (time >= enemy.time[0])
-            enemy.changestate(new wander());
+		if (time >= enemy.time [0]) {
+			time = 0;
+			enemy.idle = false;
+			enemy.wander = true;
+			enemy.changestate (new wander ());
+		}
     }
 }
