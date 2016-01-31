@@ -6,6 +6,7 @@ using System;
 public class Enemy : Controller{
     public bool isAir;
     private state currentState;
+	private Animator mAnimator;
     public LayerMask enemyMask;
     public bool rightdirection;
     public float[] time = new float[10];
@@ -14,6 +15,7 @@ public class Enemy : Controller{
     void Start ()
     {
         print("start");
+		mAnimator = GetComponent<Animator> ();
         changestate(new idle());
 	}
 	// Update is called once per frame
