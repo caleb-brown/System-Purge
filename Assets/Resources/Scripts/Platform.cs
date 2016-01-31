@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public class Platform : MonoBehaviour
 {
     public Sprite sprite;
+    float scaleFactor = 0.047f;
     //public int addNum;
     //public GameObject prefab;
     //public bool isParent = true;
@@ -18,8 +19,17 @@ public class Platform : MonoBehaviour
         foreach (SpriteRenderer i in GetComponentsInChildren<SpriteRenderer>())
         {
             if (i.tag != "Player")
+            {
+                i.transform.localScale = new Vector3(scaleFactor, scaleFactor);
                 i.sprite = sprite;
+            }
         }
+
+        /*foreach (Collider2D i in GetComponentsInChildren<Collider2D>())
+        {
+            if (i.tag != "Player")
+                i.transform.localScale = new Vector3(scaleFactor * 20, scaleFactor * 20);
+        }*/
 
         /*Vector3 curPos = this.transform.position;
         float scaleX = this.transform.lossyScale.x;
