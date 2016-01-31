@@ -1,0 +1,294 @@
+fileFormatVersion: 2
+guid: 4918c79d151cfbd4dab8fb25e149517e
+timeCreated: 1454218982
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PapeStationary_0
+    21300002: PapeStationary_1
+    21300004: PapeStationary_2
+    21300006: PapeStationary_3
+    21300008: PapeStationary_4
+    21300010: PapeStationary_5
+    21300012: PapeStationary_6
+    21300014: PapeStationary_7
+    21300016: PapeStationary_8
+    21300018: PapeStationary_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PapeStationary_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 164
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 154.5}
+        - {x: -12, y: 155.5}
+        - {x: -28, y: 155.5}
+        - {x: -43, y: 142.5}
+        - {x: -52, y: 110.5}
+        - {x: -54, y: 55.5}
+        - {x: -54, y: -32.5}
+        - {x: -50, y: -31.5}
+        - {x: -48, y: -27.5}
+        - {x: -43, y: -166.5}
+        - {x: -37, y: -185.5}
+        - {x: 10, y: -185.5}
+        - {x: 22, y: -176.5}
+        - {x: 22, y: 57.5}
+        - {x: 13, y: 144.5}
+    - name: PapeStationary_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 145
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.341537, y: 152.5}
+        - {x: -46.341537, y: 128.5}
+        - {x: -46.341537, y: -162.5}
+        - {x: -32.341537, y: -185.5}
+        - {x: 27.658463, y: -185.5}
+        - {x: 32.658463, y: -163.5}
+        - {x: 32.658463, y: 122.5}
+        - {x: 30.658463, y: 152.5}
+    - name: PapeStationary_2
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 167
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.172546, y: 152.5}
+        - {x: -23.827454, y: 152.5}
+        - {x: -46.827454, y: 100.5}
+        - {x: -46.827454, y: -185.5}
+        - {x: 13.172546, y: -185.5}
+        - {x: 32.172546, y: -165.5}
+        - {x: 32.172546, y: 115.5}
+        - {x: 25.172546, y: 148.5}
+    - name: PapeStationary_3
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 0
+        width: 141
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.6602173, y: 152.5}
+        - {x: -23.660217, y: 141.5}
+        - {x: -29.660217, y: 79.5}
+        - {x: -29.660217, y: -185.5}
+        - {x: 40.339783, y: -185.5}
+        - {x: 40.339783, y: 146.5}
+        - {x: 29.339783, y: 152.5}
+    - name: PapeStationary_4
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 0
+        width: 165
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.01587, y: -162.5}
+        - {x: 31.01587, y: -113.5}
+        - {x: 26.01587, y: -36.5}
+        - {x: 26.01587, y: -11.5}
+        - {x: 27.01587, y: -10.5}
+        - {x: 27.01587, y: 5.5}
+        - {x: 28.01587, y: 6.5}
+        - {x: 27.01587, y: -2.5}
+        - {x: 27.01587, y: -22.5}
+        - {x: 26.01587, y: -23.5}
+        - {x: 26.01587, y: -31.5}
+        - {x: 34.01587, y: -48.5}
+        - {x: 39.01587, y: -14.5}
+        - {x: 39.01587, y: 139.5}
+        - {x: 29.01587, y: 154.5}
+        - {x: -3.9841309, y: 154.5}
+        - {x: -24.98413, y: 139.5}
+        - {x: -31.98413, y: 57.5}
+        - {x: -31.98413, y: -34.5}
+        - {x: -24.98413, y: -33.5}
+        - {x: -22.98413, y: -25.5}
+        - {x: -22.98413, y: -9.5}
+        - {x: -21.98413, y: -8.5}
+        - {x: -22.98413, y: -12.5}
+        - {x: -22.98413, y: -37.5}
+        - {x: -23.98413, y: -38.5}
+        - {x: -24.98413, y: -47.5}
+        - {x: -30.98413, y: -128.5}
+        - {x: -29.98413, y: -157.5}
+        - {x: -24.98413, y: -182.5}
+        - {x: -23.98413, y: -185.5}
+        - {x: -14.984131, y: -185.5}
+        - {x: -17.98413, y: -165.5}
+        - {x: 7.015869, y: -185.5}
+        - {x: 28.01587, y: -185.5}
+    - name: PapeStationary_5
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 0
+        width: 165
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.038818, y: -112.5}
+        - {x: 30.038818, y: -96.5}
+        - {x: 43.03882, y: -37.5}
+        - {x: 43.03882, y: 143.5}
+        - {x: 22.038818, y: 155.5}
+        - {x: -9.961182, y: 155.5}
+        - {x: -31.961182, y: 108.5}
+        - {x: -32.96118, y: 48.5}
+        - {x: -32.96118, y: -31.5}
+        - {x: -31.961182, y: -33.5}
+        - {x: -23.961182, y: -30.5}
+        - {x: -27.961182, y: -121.5}
+        - {x: -21.961182, y: -185.5}
+        - {x: 32.03882, y: -185.5}
+        - {x: 34.03882, y: -170.5}
+        - {x: 32.03882, y: -125.5}
+    - name: PapeStationary_6
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 0
+        width: 179
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.11792, y: 155.5}
+        - {x: -34.11792, y: -185.5}
+        - {x: 36.88208, y: -185.5}
+        - {x: 39.88208, y: -129.5}
+        - {x: 39.88208, y: 117.5}
+        - {x: 26.88208, y: 155.5}
+    - name: PapeStationary_7
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 0
+        width: 159
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.950684, y: 155.5}
+        - {x: -30.950684, y: -185.5}
+        - {x: 35.049316, y: -185.5}
+        - {x: 43.049316, y: -182.5}
+        - {x: 43.049316, y: 138.5}
+        - {x: 36.049316, y: 155.5}
+    - name: PapeStationary_8
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 0
+        width: 169
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.78882, y: 155.5}
+        - {x: -15.211182, y: 155.5}
+        - {x: -35.21118, y: 118.5}
+        - {x: -35.21118, y: -185.5}
+        - {x: 29.788818, y: -185.5}
+        - {x: 39.78882, y: -144.5}
+        - {x: 39.78882, y: 131.5}
+    - name: PapeStationary_9
+      rect:
+        serializedVersion: 2
+        x: 2946
+        y: 0
+        width: 158
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.235962, y: 58.5}
+        - {x: 36.235962, y: 101.5}
+        - {x: 17.235962, y: 155.5}
+        - {x: -40.764038, y: 155.5}
+        - {x: -40.764038, y: -185.5}
+        - {x: 18.235962, y: -185.5}
+        - {x: 24.235962, y: -166.5}
+        - {x: 23.235962, y: -47.5}
+        - {x: 38.235962, y: -31.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
