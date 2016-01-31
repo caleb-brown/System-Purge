@@ -25,8 +25,12 @@ public class wander : state
     public void Execute()
     {
         time += Time.deltaTime;
-        if (time >= enemy.time[1])
-            enemy.changestate(new idle());
+		if (time >= enemy.time [1]) {
+			time = 0;
+			enemy.idle = true;
+			enemy.wander = false;
+			enemy.changestate (new idle ());
+		}
         seeplayer();
         if (enemy.isAir)
         {
@@ -41,6 +45,9 @@ public class wander : state
     }
     public void Enter(Enemy enemy)
     {
+		time = 0;
+		enemy.wander = true;
+		enemy.idle = false;
         Debug.Log("Wander");
         this.enemy = enemy;
         this.enemyMask = enemy.enemyMask;
