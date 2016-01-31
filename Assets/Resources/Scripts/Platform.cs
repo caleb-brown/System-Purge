@@ -18,7 +18,7 @@ public class Platform : MonoBehaviour
         //Updates all of the children's SpriteRender sprites
         foreach (SpriteRenderer i in GetComponentsInChildren<SpriteRenderer>())
         {
-            if (i.tag != "Player")
+            if (i.tag != "Scene_Object")
             {
                 i.transform.localScale = new Vector3(scaleFactor, scaleFactor);
                 i.sprite = sprite;

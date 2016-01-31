@@ -6,12 +6,12 @@ namespace UnityStandardAssets._2D
 {
     public class Restarter : MonoBehaviour
     {
-        public string mapName; // does not need extension. will error if provided
+        public string levelName;
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.tag == "Player")
+            if (other.tag == "Scene_Object")
             {
-                SceneManager.LoadScene(mapName);
+                SceneManager.LoadScene(levelName);
             }
         }
     }

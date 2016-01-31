@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: c562a6c73f4179a418fb08716ddbae41
+timeCreated: 1454179562
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpiderChip_WalkSheet_0
+    21300002: SpiderChip_WalkSheet_1
+    21300004: SpiderChip_WalkSheet_2
+    21300006: SpiderChip_WalkSheet_3
+    21300008: SpiderChip_WalkSheet_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SpiderChip_WalkSheet_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 751
+        width: 320
+        height: 240
+      alignment: 9
+      pivot: {x: 0.46196046, y: 0.52399164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.172653, y: -57.757996}
+        - {x: 92.17265, y: -86.757996}
+        - {x: 101.17265, y: -71.757996}
+        - {x: 69.17265, y: -35.757996}
+        - {x: 158.17265, y: -59.757996}
+        - {x: 161.17265, y: -52.757996}
+        - {x: 161.17265, y: -40.757996}
+        - {x: 121.17265, y: -20.757996}
+        - {x: 129.17265, y: 9.242004}
+        - {x: 131.17265, y: 81.242004}
+        - {x: 74.17265, y: 86.242004}
+        - {x: -113.82735, y: 86.242004}
+        - {x: -144.82735, y: 27.242004}
+        - {x: -144.82735, y: -37.757996}
+        - {x: -66.82735, y: -88.757996}
+        - {x: -29.827347, y: -104.757996}
+        - {x: 36.172653, y: -104.757996}
+        - {x: 22.172653, y: -50.757996}
+        - {x: 11.172653, y: -44.757996}
+        - {x: 1.1726532, y: -17.757996}
+    - name: SpiderChip_WalkSheet_1
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 740
+        width: 320
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -36}
+        - {x: 114, y: -66}
+        - {x: 128, y: -65}
+        - {x: 128, y: -10}
+        - {x: 115, y: 42}
+        - {x: 39, y: 83}
+        - {x: 16, y: 83}
+        - {x: -94, y: 75}
+        - {x: -110, y: 24}
+        - {x: -110, y: -18}
+        - {x: -94, y: -17}
+        - {x: -66, y: -3}
+        - {x: -64, y: -1}
+        - {x: -96, y: -80}
+        - {x: -97, y: -88}
+        - {x: -54, y: -88}
+        - {x: -16, y: -77}
+        - {x: 41, y: -84}
+        - {x: 57, y: -84}
+        - {x: 63, y: -81}
+    - name: SpiderChip_WalkSheet_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 477
+        width: 320
+        height: 240
+      alignment: 9
+      pivot: {x: 0.43522277, y: 0.47600836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.728714, y: 86.757996}
+        - {x: 8.728714, y: 86.757996}
+        - {x: -83.271286, y: 75.757996}
+        - {x: -96.271286, y: 27.757996}
+        - {x: -96.271286, y: -87.242004}
+        - {x: 131.72871, y: -87.242004}
+        - {x: 141.72871, y: -73.242004}
+        - {x: 141.72871, y: 36.757996}
+        - {x: 138.72871, y: 49.757996}
+    - name: SpiderChip_WalkSheet_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 468
+        width: 320
+        height: 240
+      alignment: 9
+      pivot: {x: 0.4100317, y: 0.49040323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 155.78986, y: 8.303223}
+        - {x: 142.78986, y: 65.30322}
+        - {x: 71.789856, y: 88.30322}
+        - {x: -1.210144, y: 88.30322}
+        - {x: -87.210144, y: 75.30322}
+        - {x: -89.210144, y: 54.303223}
+        - {x: -89.210144, y: -25.696777}
+        - {x: -7.210144, y: -81.69678}
+        - {x: 65.789856, y: -81.69678}
+        - {x: 113.789856, y: -33.696777}
+        - {x: 178.78986, y: -35.696777}
+        - {x: 178.78986, y: -11.696777}
+    - name: SpiderChip_WalkSheet_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 172
+        width: 320
+        height: 240
+      alignment: 9
+      pivot: {x: 0.4172291, y: 0.48080662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.486694, y: -16.393585}
+        - {x: 48.486694, y: -33.393585}
+        - {x: 60.486694, y: -69.393585}
+        - {x: 66.486694, y: -73.393585}
+        - {x: 105.486694, y: -78.393585}
+        - {x: 142.4867, y: -78.393585}
+        - {x: 157.4867, y: -64.393585}
+        - {x: 157.4867, y: -29.393585}
+        - {x: 127.486694, y: 40.606415}
+        - {x: 51.486694, y: 86.606415}
+        - {x: -81.513306, y: 86.606415}
+        - {x: -81.513306, y: -7.393585}
+        - {x: -57.513306, y: -9.393585}
+        - {x: -53.513306, y: -4.393585}
+        - {x: -67.513306, y: -68.393585}
+        - {x: -67.513306, y: -78.393585}
+        - {x: -27.513306, y: -78.393585}
+        - {x: -22.513306, y: -64.393585}
+        - {x: -21.513306, y: -55.393585}
+        - {x: 24.486694, y: -21.393585}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
