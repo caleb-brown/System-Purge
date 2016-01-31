@@ -8,7 +8,7 @@ public class hover : MonoBehaviour
     public float speed = 1;
     public bool flyPattern; // false is x-axis, true is y axis YOU HAPPY???? good
     public float maxFlightDistance = 0; // if flight distance is 0, fly foreva, probably should never do.. lol
-    float distanceFlown;
+    float distanceFlown = 0;
     Rigidbody2D myBody;
     Transform myTrans;
     BoxCollider2D hitBox;
@@ -74,6 +74,7 @@ public class hover : MonoBehaviour
             Vector3 currentRot = myTrans.eulerAngles;
             currentRot.y += 180;
             myTrans.eulerAngles = currentRot;
+            //print("DUMB ");
             distanceFlown = 0;
         }
 
