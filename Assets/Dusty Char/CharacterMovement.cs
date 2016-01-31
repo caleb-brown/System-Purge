@@ -10,9 +10,9 @@ public class CharacterMovement : MonoBehaviour {
     public bool changeBox = false;
     public bool isStarted = false;
  
-    float timeRemainingTransparency = 5; 
-    float timeRemainingTransfer = 5;
-    float checkTimeRemaining = 5;
+    private float timeRemainingTransparency = 5; 
+    private float timeRemainingTransfer = 5;
+    private float checkTimeRemaining = 5;
     
 
     public Transform sightStart, sightEnd;
@@ -35,7 +35,7 @@ public class CharacterMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        Movement();
+        //Movement();
         powerTransparency();
         
         powerTransfer();
@@ -46,26 +46,31 @@ public class CharacterMovement : MonoBehaviour {
        // print("IS starting: " + isStarted);
 	}
 
-    void Movement()
+    public void Movement()
     {
         //Is going to handle all the character movement
-        if(Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector2.right * 4f * Time.deltaTime);  //Makes it to where the player can travel to the right
-            transform.eulerAngles = new Vector2(0,0); //this allows the "rotation" of the sprite, facing right / left
-        }
+        //if(Input.GetKey(KeyCode.D))
+        //{
+        //    transform.Translate(Vector2.right * 4f * Time.deltaTime);  //Makes it to where the player can travel to the right
+        //    transform.eulerAngles = new Vector2(0,0); //this allows the "rotation" of the sprite, facing right / left
+        //}
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(Vector2.left * -4f * Time.deltaTime);  //Makes it to where the player can travel to the left
-            transform.eulerAngles = new Vector2(0, 180);
-        }
+        //if (Input.GetKey(KeyCode.A))
+        //{
+        //    transform.Translate(Vector2.left * -4f * Time.deltaTime);  //Makes it to where the player can travel to the left
+        //    transform.eulerAngles = new Vector2(0, 180);
+        //}
 
         if (Input.GetKeyDown(KeyCode.T))
+        {
+            print("Got teleport key.");
             powerTeleport();
+        }
+            
 
         if (Input.GetKeyDown(KeyCode.F))
         {
+            print("got shit");
             if (canPass == true)
                 canPass = false;
             else
@@ -75,21 +80,19 @@ public class CharacterMovement : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.G))
         {
+            print("got nodda");
             if (changeBox == true)
                 changeBox = false;
             else
                 changeBox = true;
         }
-           
-
-            
-        
-              
+                                             
     }
 
-    void powerTransfer()
+    public void powerTransfer()
     {
         //Transfer (enabling the player to "transfer" thier "hit" box behind them)
+        print("got transfer");
         if (changeBox == true  && timeRemainingTransfer >= 0.0 )
         {        
             GetComponent<BoxCollider2D>().offset = new Vector2(secondBoxX, secondBoxY);
@@ -106,12 +109,13 @@ public class CharacterMovement : MonoBehaviour {
             
     }
 
-   void powerTransparency()
-   {
+    public void powerTransparency()
+    {
         //Transparency (enabling the player to "glitch" through certain boundaries.)
+        print("got transparency");
         if (canPass == true && timeRemainingTransparency >= 0.0)
         {
-            Physics2D.IgnoreLayerCollision(8, 10, true);
+            Physics2D.IgnoreLayerCollision(8, 10, true);  //Make sure that the "barriers" that the player needs to "phase" through are part of the barrier layer.
             timeRemainingTransparency -= Time.deltaTime;
         }
         else
@@ -123,7 +127,7 @@ public class CharacterMovement : MonoBehaviour {
         //still need to work on "re increasing" the time remaining variable.
     }
 
-    void powerTeleport()
+     public void powerTeleport()
     {
         //Teleportation (enabling teh player to teleport to a location ahead of him.)
         Debug.DrawLine(sightStart.position, sightEnd.position, Color.red);
